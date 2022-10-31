@@ -15,7 +15,7 @@ export function SimpleHero() {
             Creators and businesses work with us to build modern digital
             experiences for their brands. Whether you're a new creator looking
             to build an audience or a business in need of a beautiful website,
-            we've got you covered.
+            RDG has you covered.
           </p>
           <div className="mx-auto mt-6 max-w-md md:mt-8">
             <Button href="/creators" className="mr-2">

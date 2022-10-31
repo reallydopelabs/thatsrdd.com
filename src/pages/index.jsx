@@ -17,6 +17,7 @@ import avatarClaireLehmann from '@/images/avatars/claire-lehmann.png'
 import screenshotVexus from '@/images/screenshots/vexus.png'
 import { Testimonials } from '@/components/Testimonials'
 import { CallToAction } from '@/components/CallToAction'
+import { AmazonLogo, GhostLogo, LaravelLogo, NextLogo, TailwindLogo, TerraformLogo } from '@/components/TechLogos'
 
 function Segments() {
   return (
@@ -172,46 +173,22 @@ function Stack() {
       </p>
       <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-          <img
-            className="max-h-12"
-            src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
-            alt="Workcation"
-          />
+          <LaravelLogo className="max-h-12 fill-gray-400"></LaravelLogo>
         </div>
         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-          <img
-            className="max-h-12"
-            src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
-            alt="Mirage"
-          />
+          <NextLogo className="max-h-12 fill-gray-400"></NextLogo>
         </div>
         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-          <img
-            className="max-h-12"
-            src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
-            alt="Tuple"
-          />
+          <TailwindLogo className="max-h-6 fill-gray-400"></TailwindLogo>
         </div>
         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-          <img
-            className="max-h-12"
-            src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg"
-            alt="Laravel"
-          />
+          <GhostLogo className="max-h-12 fill-gray-400"></GhostLogo>
         </div>
         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-          <img
-            className="max-h-12"
-            src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-            alt="StaticKit"
-          />
+          <AmazonLogo className="max-h-12 fill-gray-400"></AmazonLogo>
         </div>
         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-          <img
-            className="max-h-12"
-            src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg"
-            alt="Statamic"
-          />
+          <TerraformLogo className="max-h-12 fill-gray-400"></TerraformLogo>
         </div>
       </div>
     </Container>
