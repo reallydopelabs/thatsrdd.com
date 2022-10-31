@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact RDG | Schedule a call or email us to get started</title>
+        <title>Schedule a call or email us to get started | Rapaport Development Group</title>
         <meta name="description" content="Schedule a call or email us to get started" />
       </Head>
       <main>

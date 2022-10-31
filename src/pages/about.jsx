@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Web design and development services for businesses | RDG</title>
+        <title>About RDG</title>
       </Head>
 
       <main>

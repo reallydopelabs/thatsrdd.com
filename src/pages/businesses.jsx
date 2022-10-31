@@ -140,7 +140,7 @@ export default function Businesses() {
   return (
     <>
       <Head>
-        <title>Web design and development services for businesses | RDG</title>
+        <title>Building next-level digital experiences that engage with consumers | Rapaport Development Group</title>
       </Head>
       <main>
         <CodeHero></CodeHero>
