@@ -2,8 +2,12 @@ import Head from 'next/head'
 import Image from 'next/future/image'
 
 import {
+  ChartBarIcon,
+  CloudIcon,
+  CodeBracketIcon,
   InboxIcon,
   PencilSquareIcon,
+  RectangleGroupIcon,
   TrashIcon,
   UsersIcon,
 } from '@heroicons/react/24/outline'
@@ -198,28 +202,28 @@ function Stack() {
 function Services() {
   const features = [
     {
-      name: 'Design',
+      name: 'Design & Wireframing',
       description:
         'Desktop and mobile designs are created in-house before entering development.',
-      icon: InboxIcon,
+      icon: RectangleGroupIcon,
     },
     {
       name: 'Development',
       description:
         'We write the code that makes any vision a reality using the latest technology standards.',
-      icon: UsersIcon,
+      icon: CodeBracketIcon,
     },
     {
       name: 'Hosting',
       description:
         'With expertise in cloud infrastructure, our highly available hosting platform scales as you do.',
-      icon: TrashIcon,
+      icon: CloudIcon,
     },
     {
       name: 'Growth Consulting',
       description:
         "We'll work with you on a regular or as-needed basis to establish the right mindset and tools for steady online growth.",
-      icon: PencilSquareIcon,
+      icon: ChartBarIcon,
     },
   ]
 
