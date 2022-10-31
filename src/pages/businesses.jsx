@@ -17,6 +17,7 @@ import { Container } from '@/components/Container'
 import { SimpleFeatures } from '@/components/SimpleFeatures'
 import { CallToAction } from '@/components/CallToAction'
 
+import featureGif from '@/images/screenshots/feature.gif'
 import screenshotFeatured1 from '@/images/screenshots/featured-1.png'
 import screenshotFeatured2 from '@/images/screenshots/featured-2.png'
 import screenshotFeatured3 from '@/images/screenshots/featured-3.png'
@@ -140,26 +141,44 @@ export default function Businesses() {
   return (
     <>
       <Head>
-        <title>Building next-level digital experiences that engage with consumers | Rapaport Development Group</title>
+        <title>
+          Building next-level digital experiences that engage with consumers |
+          Rapaport Development Group
+        </title>
       </Head>
       <main>
         <CodeHero></CodeHero>
 
-        <Container className="py-12 lg:py-24">
-          <h2 className="text-sm font-bold uppercase text-orange-500">
-            Stand Apart
-          </h2>
-          <p className="my-6 max-w-xl text-3xl font-bold leading-normal tracking-tight text-gray-900 lg:text-4xl">
-            Building next-level digital experiences that engage with consumers
-          </p>
-          <p className="my-6 max-w-3xl text-lg text-gray-500">
-            Today's businesses are competing for attention more than ever. To
-            stand apart, your brand must deliver exceptional digital experiences
-            that cultivate meaningful relationships with customers while
-            delivering real business value. We craft websites that are
-            intuitive, beautiful, and optimized across all devices.
-          </p>
-        </Container>
+        <div className="relative overflow-hidden bg-white py-12 lg:py-24">
+          <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+            <div className="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+              <h2 className="text-sm font-bold uppercase text-orange-500">
+                Stand Apart
+              </h2>
+              <p className="my-6 max-w-xl text-3xl font-bold leading-normal tracking-tight text-gray-900 lg:text-4xl">
+                Building next-level digital experiences <span class="block sm:hidden"></span>that engage with
+                consumers
+              </p>
+              <p className="my-6 max-w-3xl text-lg text-gray-500">
+                Today's businesses are competing for attention more than ever.
+                To stand apart, your brand must deliver exceptional digital
+                experiences that cultivate meaningful relationships with
+                customers while delivering real business value. We craft
+                websites that are intuitive, beautiful, and optimized across all
+                devices.
+              </p>
+            </div>
+            <div className="mt-12 sm:mt-16 lg:mt-0">
+              <div className="-mr-48 pl-4 sm:pl-6 md:-mr-32 lg:relative lg:m-0 lg:h-full lg:px-0">
+                <Image
+                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                  src={featureGif}
+                  alt="Virgin Orbit Demo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
 
         <SimpleFeatures features={capabilities} className="bg-slate-50">
           <h2 className="text-sm font-bold uppercase text-orange-500">
