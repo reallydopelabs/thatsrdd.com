@@ -112,7 +112,7 @@ const timeline = [
 
 export function GhostIntro() {
   return (
-    <div className="overflow-hidden bg-gray-900 py-16 lg:py-24">
+    <div className="overflow-hidden bg-zinc-900 py-16 lg:py-24">
       <div className="relative mx-auto max-w-xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <svg
           className="absolute left-full hidden -translate-x-1/2 -translate-y-1/4 transform lg:block"
@@ -136,7 +136,7 @@ export function GhostIntro() {
                 y={0}
                 width={4}
                 height={4}
-                className="text-slate-700"
+                className="text-zinc-700"
                 fill="currentColor"
               />
             </pattern>
@@ -149,13 +149,13 @@ export function GhostIntro() {
         </svg>
 
         <div className="relative">
-          <h2 className="text-sm font-bold uppercase text-lime-400">
+          <h2 className="text-sm font-bold uppercase text-emerald-400">
             Publish like a pro
           </h2>
           <p className="my-6 max-w-3xl text-3xl font-bold leading-normal tracking-tight text-white sm:text-4xl">
             Own your platform with an expertly crafted Ghost website.
           </p>
-          <p className="my-6 max-w-3xl text-lg text-slate-200">
+          <p className="my-6 max-w-3xl text-lg text-zinc-200">
             Ghost is an all-in-one platform to run a media business, collect
             subscribers, send newsletters, publish premium content, and earn
             recurring revenue. It's the best way to turn your audience into a
@@ -168,7 +168,7 @@ export function GhostIntro() {
             <h3 className="text-2xl font-bold leading-normal tracking-tight text-white sm:text-3xl">
               Why do we love Ghost?
             </h3>
-            <p className="mt-3 text-lg text-slate-200">
+            <p className="mt-3 text-lg text-zinc-200">
               Ghost comes with all the tools you need to launch and scale an
               online media business. It's built on a modern tech stack and
               completely open source, giving you full ownership over your
@@ -179,14 +179,14 @@ export function GhostIntro() {
               {transferFeatures.map((item) => (
                 <div key={item.id} className="relative">
                   <dt>
-                    <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-indigo-600 text-white">
+                    <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-emerald-400/10 text-emerald-400">
                       <item.icon className="h-6 w-6" aria-hidden="true" />
                     </div>
                     <p className="ml-16 text-lg font-medium leading-6 text-white">
                       {item.name}
                     </p>
                   </dt>
-                  <dd className="mt-2 ml-16 text-base text-slate-200">
+                  <dd className="mt-2 ml-16 text-base text-zinc-200">
                     {item.description}
                   </dd>
                 </div>
@@ -194,7 +194,7 @@ export function GhostIntro() {
             </dl>
 
             <div class="mt-10 text-lg">
-              <ActionLink href="https://ghost.org" target="_blank" color="lime">
+              <ActionLink href="https://ghost.org" target="_blank" color="emerald">
                 Learn more on ghost.org
               </ActionLink>
             </div>
@@ -222,7 +222,7 @@ export function GhostIntro() {
                     y={0}
                     width={4}
                     height={4}
-                    className="text-slate-700"
+                    className="text-zinc-700"
                     fill="currentColor"
                   />
                 </pattern>
@@ -263,7 +263,7 @@ export function GhostIntro() {
                 y={0}
                 width={4}
                 height={4}
-                className="text-slate-700"
+                className="text-zinc-700"
                 fill="currentColor"
               />
             </pattern>
@@ -282,7 +282,7 @@ export function GhostIntro() {
                 We know the platform,<span class="hidden lg:block"></span>{' '}
                 inside and out.
               </h3>
-              <p className="mt-3 text-lg text-slate-200">
+              <p className="mt-3 text-lg text-zinc-200">
                 Anyone can launch a publication on Ghost with a few clicks, but
                 our expertise will save you time and set you apart so you can
                 focus on what you do best, <em>creating</em>. Whether it's
@@ -292,7 +292,7 @@ export function GhostIntro() {
               </p>
 
               <div class="mt-10 text-lg">
-                <ActionLink href="#quillette" color="lime">
+                <ActionLink href="#quillette" color="emerald">
                   Read our case study on <em>Quillette</em>
                 </ActionLink>
               </div>
@@ -321,7 +321,7 @@ export function GhostIntro() {
                       y={0}
                       width={4}
                       height={4}
-                      className="text-slate-700"
+                      className="text-zinc-700"
                       fill="currentColor"
                     />
                   </pattern>

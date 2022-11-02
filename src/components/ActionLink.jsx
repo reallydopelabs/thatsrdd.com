@@ -2,24 +2,23 @@ import Link from 'next/link'
 import clsx from 'clsx'
 
 const colors = {
-  slate: 'text-slate-900',
-  indigo: 'text-indigo-600',
-  purple: 'text-purple-400',
-  lime: 'text-lime-400',
+  zinc: 'text-zinc-900',
+  emerald: 'text-emerald-600',
+  emerald: 'text-emerald-400',
   yellow: 'text-yellow-400',
-  orange: 'text-orange-400',
-  sky: 'text-sky-400',
+  purple: 'text-purple-400',
+  emerald: 'text-emerald-400',
 }
 
 export function ActionLink({
-  color = 'slate',
+  color = 'zinc',
   className,
   href,
   children,
   ...props
 }) {
   className = clsx(
-    'font-medium transition-all hover:text-slate-700',
+    'font-medium transition-all hover:text-zinc-700',
     colors[color],
     className
   )

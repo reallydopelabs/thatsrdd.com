@@ -4,18 +4,18 @@ import avatarClaireLehmann from '@/images/avatars/claire-lehmann.png'
 
 export function CaseStudy() {
   return (
-    <div id="quillette" className="overflow-hidden bg-gray-50 py-16">
+    <div id="quillette" className="overflow-hidden bg-zinc-900 py-16">
       <div className="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-prose text-base lg:max-w-none">
-          <h2 className="text-sm font-bold uppercase text-lime-500">
+          <h2 className="text-sm font-bold uppercase text-emerald-400">
             Case Study
           </h2>
-          <p className="my-6 max-w-2xl text-3xl font-bold leading-normal tracking-tight text-gray-900 sm:text-4xl">
+          <p className="my-6 max-w-2xl text-3xl font-bold leading-normal tracking-tight text-white sm:text-4xl">
             How we doubled Quillette's MRR after migrating to Ghost
           </p>
         </div>
         <div className="relative z-10 mx-auto max-w-prose text-base lg:mx-0 lg:max-w-5xl lg:pr-72">
-          <p className="text-lg text-gray-500">
+          <p className="text-lg text-zinc-200">
             Quillette is an Australian based online magazine that focuses on
             long-form analysis and cultural commentary. Founded by Claire
             Lehmann in 2015, it has grown into a globally recognized publication
@@ -24,7 +24,7 @@ export function CaseStudy() {
         </div>
         <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-8">
           <div className="relative z-10">
-            <div className="prose prose-indigo mx-auto text-gray-500 lg:max-w-none">
+            <div className="prose prose-emerald mx-auto text-zinc-200 lg:max-w-none">
               <p>
                 In 2021, Claire was becoming frustrated with the scalability
                 issues that Quillette was facing on WordPress. The clumsy
@@ -103,7 +103,7 @@ export function CaseStudy() {
                     y={0}
                     width={4}
                     height={4}
-                    className="text-gray-200"
+                    className="text-zinc-700"
                     fill="currentColor"
                   />
                 </pattern>
@@ -114,12 +114,12 @@ export function CaseStudy() {
                 fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)"
               />
             </svg>
-            <blockquote className="relative rounded-lg bg-white shadow-lg">
+            <blockquote className="relative rounded-lg bg-black shadow-lg">
               <div className="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 400 95"
-                  className="h-12 fill-black"
+                  className="h-12 fill-white"
                 >
                   <g>
                     <path d="M0,50.12c6.06-.14,11.45,1.94,16.46,5.14,5.96,3.8,10.6,8.95,14.45,14.84,.76,1.16,1.6,1.7,2.94,1.58,4.01-.36,8.05-.58,12.04-1.07,4.5-.55,8.96-1.34,13.44-2.03,.23-.03,.45-.11,.94-.23-18.03-2.53-28.15-12.43-29.57-30.92,.58,.09,1.17,.09,1.7,.27,11.67,3.95,20.43,11.49,26.59,22.11,1.32,2.28,2.32,4.74,3.41,7.15,.56,1.25,.63,1.36,2.12,1.24,3.71-.32,7.4-.13,11.05,.58,2.48,.48,4.63,1.68,6.61,3.2,1.86,1.42,3.66,2.92,5.49,4.36,3.82,3.01,8.11,4.56,13.01,4.22,3.77-.26,6.93-1.79,9.56-4.58-.1,.22-.17,.44-.29,.65-4.47,8.03-13.96,10.82-22.09,6.35-2.03-1.11-3.84-2.65-5.7-4.05-1.63-1.22-3.13-2.63-4.8-3.78-6.12-4.22-12.36-3.91-18.64-.35-.25,.14-.48,.3-.72,.45-.05-.07-.1-.13-.16-.2,1.12-.97,2.18-2.02,3.37-2.9,1.2-.88,2.52-1.58,4.03-2.5-2.03,.23-3.83,.39-5.61,.65-2.7,.41-5.39,.91-8.09,1.33-1.23,.19-1.92,.8-2.5,1.96-5.17,10.26-12.53,18.03-24.07,20.88-2.85,.7-5.75,.58-8.66,.43-1.15-.06-2.3,0-3.62,0,1.73-5.22,4.7-9.6,8.75-13.25,4.02-3.62,8.64-6.21,13.71-8.08-.24,0-.47,0-.71,0-7.3,.27-14.48-.29-21.25-3.33C6.18,67.07,1.68,61.82,.3,54.09c-.09-.52-.2-1.04-.3-1.56,0-.8,0-1.61,0-2.41Zm59.08,13.17c.78,.96,1.56,1.93,2.34,2.89-2.77-6.17-6.45-11.7-11.18-16.5-4.73-4.8-13.74-10.65-16.57-10.73,4.76,2.25,8.8,5.39,12.54,8.95,4.05,3.85,7.72,8.05,11,12.59-.27-.24-.57-.44-.8-.72-4.26-5.27-8.87-10.2-14.05-14.54-2.29-1.92-4.83-3.54-7.28-5.27-.4-.28-.91-.4-1.42-.62,.01,.19,0,.24,.02,.26,.23,.19,.46,.38,.7,.57,9.69,7.92,19.14,16.07,26.11,26.69,.11,.16,.39,.21,.59,.31,0-.21,.06-.46-.04-.61-.64-1.1-1.3-2.18-1.96-3.26Zm-24.39-21.91c-.57-.63-1.13-1.25-1.7-1.88,1.8,6.56,20.46,25.96,26.11,27.37-.27-.25-.49-.45-.7-.66-5.97-5.98-11.99-11.91-17.89-17.96-2.09-2.14-3.89-4.57-5.82-6.87,.26,.19,.55,.34,.77,.56,3.14,3.33,6.23,6.71,9.42,10,4.63,4.77,9.33,9.48,14,14.2,.32,.33,.72,.58,1.08,.87,.08-.08,.15-.16,.23-.24-1.24-1.6-2.42-3.25-3.72-4.8-6.26-7.5-13.53-13.95-20.91-20.28-.22-.19-.57-.22-.86-.32ZM1.52,52.43c3.29,7.43,8.7,12.77,15.95,16.28,3.43,1.66,6.99,2.86,10.82,3.19-9.71-5.43-19.33-10.92-26.77-19.47Zm56.49,14.74c-5.4-2.53-10.46-5.58-14.97-9.5-4.53-3.94-8.18-8.57-10.76-14.04,1.01,5.54,3.5,10.32,7.33,14.37,5.01,5.3,11.29,8.09,18.39,9.17Zm-29.93,5.87c.04-.12,.08-.24,.12-.37-12.12-2.46-21.79-8.32-27.37-19.88-.02,.44,.01,.84,.07,1.23,.95,6.41,4.49,10.98,9.97,14.15,3.95,2.29,8.25,3.56,12.72,4.28,1.49,.24,3,.39,4.5,.58Zm20.6,.09c-7.81,10.22-17.42,17.86-29.99,21.34,5.03-.05,9.69-1.4,14.08-3.75,7.37-3.95,12.44-10.04,15.91-17.59ZM3.26,52.24c8.89,6.45,17.79,12.9,26.68,19.35,.06-.09,.13-.18,.19-.27-7.1-8.96-16.03-15.36-26.87-19.08Zm12.24,40.36c4.45-3.53,9.05-7.33,13.8-10.91,4.76-3.58,9.91-6.57,15.29-9.14-9.02,1.05-26.8,13.49-29.09,20.05Zm3.09-.61c5.3-.32,25.05-13.56,27.71-18.3-8.98,5.93-18.37,12.13-27.71,18.3Zm23.78-19.85c-6.09,1.11-11.79,3.2-16.9,6.77-5.18,3.62-11.08,11.13-11.2,14.37,3.22-5.29,7.31-9.58,12.22-13.1,4.88-3.5,10.26-6.02,15.88-8.04Zm14.18-6.22c-10.77-6.32-18.42-15.59-24.57-26.28,.12,7.57,15.44,23.89,24.57,26.28ZM2.41,50.77c-.03,.1-.06,.21-.1,.31,11.56,4.04,21.44,10.47,28.83,20.48,.03-.29-.02-.47-.13-.62-3.11-4.38-6.53-8.48-10.62-11.98-4.08-3.5-8.54-6.3-13.84-7.53-1.36-.32-2.77-.45-4.15-.66Zm43.36,22.26c-.06-.09-.12-.19-.19-.28-9.99,4.65-18.73,11.2-27.15,18.24,.07,.1,.13,.2,.2,.3,9.05-6.08,18.09-12.17,27.14-18.25Zm-28.98,20.44c6.31-.69,11.89-3.21,17.05-6.77,4.85-3.35,12.07-10.49,13.26-13.17-4.24,4.68-8.81,8.7-13.92,12.11-5.09,3.39-10.56,5.99-16.39,7.84ZM2.12,52.08c7.38,8.06,16.57,13.63,25.9,18.99,.05-.07,.11-.15,.16-.22-8.69-6.26-17.37-12.51-26.06-18.77Z" />
@@ -136,9 +136,9 @@ export function CaseStudy() {
                     <path d="M184.94,8.25c2.48,.03,4.5,2.07,4.51,4.57,0,2.48-2.14,4.63-4.6,4.62-2.44-.01-4.47-2.11-4.47-4.61,0-2.59,2.01-4.6,4.56-4.57Z" />
                   </g>
                 </svg>
-                <div className="relative mt-8 text-lg font-medium text-gray-700">
+                <div className="relative mt-8 text-lg font-medium text-white">
                   <svg
-                    className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-200"
+                    className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-zinc-700"
                     fill="currentColor"
                     viewBox="0 0 32 32"
                     aria-hidden="true"
@@ -154,15 +154,15 @@ export function CaseStudy() {
                   </p>
                 </div>
               </div>
-              <cite className="relative flex items-center rounded-b-lg bg-gray-900 py-5 px-6 not-italic sm:mt-10 sm:items-start sm:py-5 sm:pl-12 sm:pr-10">
+              <cite className="relative flex items-center rounded-b-lg bg-zinc-700 py-5 px-6 not-italic sm:mt-10 sm:items-start sm:py-5 sm:pl-12 sm:pr-10">
                 <span className="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:-translate-y-1/2 sm:transform">
                   <Image
-                    className="h-12 w-12 rounded-full bg-slate-300 sm:h-20 sm:w-20"
+                    className="h-12 w-12 rounded-full bg-zinc-300 sm:h-20 sm:w-20"
                     src={avatarClaireLehmann}
                     alt="Claire Lehmann"
                   />
                 </span>
-                <span className="relative ml-4 font-semibold leading-6 text-slate-300 sm:ml-24 sm:pl-1">
+                <span className="relative ml-4 font-semibold leading-6 text-zinc-300 sm:ml-24 sm:pl-1">
                   <span className="font-semibold text-white sm:inline">
                     Claire Lehmann
                   </span>{' '}

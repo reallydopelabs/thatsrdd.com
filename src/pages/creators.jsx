@@ -18,7 +18,7 @@ const introFeatures = [
     name: 'Know your audience',
     icon: (
       <ChatBubbleLeftRightIcon
-        className="absolute h-6 w-6 text-lime-500"
+        className="absolute h-6 w-6 text-emerald-400"
         aria-hidden="true"
       />
     ),
@@ -29,7 +29,7 @@ const introFeatures = [
     name: 'Hit the ground running',
     icon: (
       <CodeBracketIcon
-        className="absolute h-6 w-6 text-lime-500"
+        className="absolute h-6 w-6 text-emerald-400"
         aria-hidden="true"
       />
     ),
@@ -40,7 +40,7 @@ const introFeatures = [
     name: 'Start creating',
     icon: (
       <PencilIcon
-        className="absolute h-6 w-6 text-lime-500"
+        className="absolute h-6 w-6 text-emerald-400"
         aria-hidden="true"
       />
     ),
@@ -51,7 +51,7 @@ const introFeatures = [
     name: 'Grow with us',
     icon: (
       <ChartBarIcon
-        className="absolute h-6 w-6 text-lime-500"
+        className="absolute h-6 w-6 text-emerald-400"
         aria-hidden="true"
       />
     ),
@@ -70,11 +70,11 @@ export default function Creators() {
         <ProductHero />
         <GhostIntro />
         <SimpleFeatures features={introFeatures}>
-          <h2 className="text-sm font-bold text-lime-500 uppercase">Proven Experts</h2>
+          <h2 className="text-sm font-bold text-emerald-400 uppercase">Proven Experts</h2>
           <p className="my-6 text-3xl font-bold leading-normal tracking-tight lg:text-4xl">
             Hit the ground running with our extensive Ghost knowledge
           </p>
-          <p className="my-6 text-lg text-gray-500">
+          <p className="my-6 text-lg text-zinc-200">
             Whether you're just starting out or coming with an established
             audience, we'll set you up with the right design and integrations to
             hit your growth and monetization goals. Take advantage of monthly

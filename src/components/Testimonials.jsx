@@ -66,17 +66,17 @@ export function Testimonials() {
       <section
         id="testimonials"
         aria-label="What our customers are saying"
-        className="bg-slate-50 py-16 sm:py-24"
+        className="bg-black py-16 sm:py-24"
       >
         <Container>
           <div className="mx-auto max-w-2xl md:text-center">
-            <h2 className="text-sm font-bold uppercase text-indigo-600">
+            <h2 className="text-sm font-bold uppercase text-emerald-400">
               Testimonials
             </h2>
-            <p className="my-6 text-3xl font-bold leading-normal tracking-tight text-gray-900 lg:text-4xl">
+            <p className="my-6 text-3xl font-bold leading-normal tracking-tight text-white lg:text-4xl">
               Building lasting partnerships
             </p>
-            <p className="mx-auto my-6 max-w-3xl text-lg text-gray-500">
+            <p className="mx-auto my-6 max-w-3xl text-lg text-zinc-200">
               As a small team of creators and entrepreneurs, we care deeply
               about every project and aim to build ongoing, long-term success
               with our clients.
@@ -91,23 +91,22 @@ export function Testimonials() {
                 <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
                   {column.map((testimonial, testimonialIndex) => (
                     <li key={testimonialIndex}>
-                      <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
-                        <QuoteIcon className="absolute top-6 left-6 fill-slate-100" />
+                      <figure className="relative rounded-2xl bg-zinc-900 p-6 outline-1 outline-zinc-600">
                         <blockquote className="relative">
-                          <p className="text-lg tracking-tight text-slate-900">
+                          <p className="text-lg tracking-tight text-zinc-200">
                             {testimonial.content}
                           </p>
                         </blockquote>
-                        <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
+                        <figcaption className="relative mt-6 flex items-center justify-between border-t border-zinc-600 pt-6">
                           <div>
-                            <div className="font-display text-base text-slate-900">
+                            <div className="font-display text-base text-zinc-200">
                               {testimonial.author.name}
                             </div>
-                            <div className="mt-1 text-sm text-slate-500">
+                            <div className="mt-1 text-sm text-zinc-500">
                               {testimonial.author.role}
                             </div>
                           </div>
-                          <div className="overflow-hidden rounded-full bg-slate-50">
+                          <div className="overflow-hidden rounded-full bg-zinc-50">
                             <Image
                               className="h-14 w-14 object-cover"
                               src={testimonial.author.image}

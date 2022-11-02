@@ -29,7 +29,7 @@ const capabilities = [
     name: 'Strategy',
     icon: (
       <PresentationChartBarIcon
-        className="absolute h-6 w-6 text-orange-500"
+        className="absolute h-6 w-6 text-purple-400"
         aria-hidden="true"
       />
     ),
@@ -40,7 +40,7 @@ const capabilities = [
     name: 'Design & Wireframing',
     icon: (
       <RectangleGroupIcon
-        className="absolute h-6 w-6 text-orange-500"
+        className="absolute h-6 w-6 text-purple-400"
         aria-hidden="true"
       />
     ),
@@ -51,7 +51,7 @@ const capabilities = [
     name: 'Development',
     icon: (
       <CodeBracketIcon
-        className="absolute h-6 w-6 text-orange-500"
+        className="absolute h-6 w-6 text-purple-400"
         aria-hidden="true"
       />
     ),
@@ -62,7 +62,7 @@ const capabilities = [
     name: 'Quality Assurance',
     icon: (
       <CheckIcon
-        className="absolute h-6 w-6 text-orange-500"
+        className="absolute h-6 w-6 text-purple-400"
         aria-hidden="true"
       />
     ),
@@ -73,7 +73,7 @@ const capabilities = [
     name: 'Cloud Infrastructure',
     icon: (
       <CloudIcon
-        className="absolute h-6 w-6 text-orange-500"
+        className="absolute h-6 w-6 text-purple-400"
         aria-hidden="true"
       />
     ),
@@ -84,7 +84,7 @@ const capabilities = [
     name: 'Growth & Consulting',
     icon: (
       <ChartBarIcon
-        className="absolute h-6 w-6 text-orange-500"
+        className="absolute h-6 w-6 text-purple-400"
         aria-hidden="true"
       />
     ),
@@ -98,7 +98,7 @@ function FeaturedWork() {
     <div>
       <Container className="py-12 lg:py-24">
         <section className="grid grid-cols-1 gap-y-10 gap-x-6 pt-10 lg:grid-cols-3">
-          <h2 className="text-2xl font-semibold leading-9 tracking-tight text-slate-900">
+          <h2 className="text-2xl font-semibold leading-9 tracking-tight text-white">
             Featured Work
           </h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2">
@@ -106,28 +106,28 @@ function FeaturedWork() {
               <Image
                 src={screenshotFeatured1}
                 alt="This is a detail image"
-                className="aspect-[1080/790] rounded-lg bg-slate-200 ring-1 ring-slate-900/10 transition-all duration-500 hover:scale-110"
+                className="aspect-[1080/790] rounded-lg bg-zinc-200 ring-1 ring-purple-400/10 transition-all duration-500 hover:scale-110"
               />
             </a>
             <a href="https://vexus.samrapaport.com" target="_blank">
               <Image
                 src={screenshotFeatured2}
                 alt="This is a detail image"
-                className="aspect-[1080/790] rounded-lg bg-slate-200 ring-1 ring-slate-900/10 transition-all duration-500 hover:scale-110"
+                className="aspect-[1080/790] rounded-lg bg-zinc-200 ring-1 ring-zinc-900/10 transition-all duration-500 hover:scale-110"
               />
             </a>
             <a href="https://quillette.com" target="_blank">
               <Image
                 src={screenshotFeatured4}
                 alt="This is a detail image"
-                className="aspect-[1080/790] rounded-lg bg-slate-200 ring-1 ring-slate-900/10 transition-all duration-500 hover:scale-110"
+                className="aspect-[1080/790] rounded-lg bg-zinc-200 ring-1 ring-zinc-900/10 transition-all duration-500 hover:scale-110"
               />
             </a>
             <a href="https://playersonlyholdings.com" target="_blank">
               <Image
                 src={screenshotFeatured3}
                 alt="This is a detail image"
-                className="aspect-[1080/790] rounded-lg bg-slate-200 ring-1 ring-slate-900/10 transition-all duration-500 hover:scale-110"
+                className="aspect-[1080/790] rounded-lg bg-zinc-200 ring-1 ring-zinc-900/10 transition-all duration-500 hover:scale-110"
               />
             </a>
           </div>
@@ -149,17 +149,17 @@ export default function Businesses() {
       <main>
         <CodeHero></CodeHero>
 
-        <div className="relative overflow-hidden bg-white py-12 lg:py-24">
+        <div className="relative overflow-hidden bg-black py-12 lg:py-24">
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div className="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
-              <h2 className="text-sm font-bold uppercase text-orange-500">
+              <h2 className="text-sm font-bold uppercase text-purple-400">
                 Stand Apart
               </h2>
-              <p className="my-6 max-w-xl text-3xl font-bold leading-normal tracking-tight text-gray-900 lg:text-4xl">
+              <p className="my-6 max-w-xl text-3xl font-bold leading-normal tracking-tight text-white lg:text-4xl">
                 Building next-level digital experiences <span class="block sm:hidden"></span>that engage with
                 consumers
               </p>
-              <p className="my-6 max-w-3xl text-lg text-gray-500">
+              <p className="my-6 max-w-3xl text-lg text-zinc-200">
                 Today's businesses are competing for attention more than ever.
                 To stand apart, your brand must deliver exceptional digital
                 experiences that cultivate meaningful relationships with
@@ -171,7 +171,7 @@ export default function Businesses() {
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="-mr-48 pl-4 sm:pl-6 md:-mr-32 lg:relative lg:m-0 lg:h-full lg:px-0">
                 <Image
-                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                  className="w-full rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                   src={featureGif}
                   alt="Virgin Orbit Demo"
                 />
@@ -180,14 +180,14 @@ export default function Businesses() {
           </div>
         </div>
 
-        <SimpleFeatures features={capabilities} className="bg-slate-50">
-          <h2 className="text-sm font-bold uppercase text-orange-500">
+        <SimpleFeatures features={capabilities} className="bg-zinc-900">
+          <h2 className="text-sm font-bold uppercase text-purple-400">
             Capabilities
           </h2>
           <p className="my-6 text-3xl font-bold leading-normal tracking-tight lg:text-4xl">
             We know our way around the web
           </p>
-          <p className="my-6 text-lg text-gray-500">
+          <p className="my-6 text-lg text-zinc-200">
             With nearly a decade of digital marketing, web development and
             software engineering experience, our abilities don't stop at the
             code editor.

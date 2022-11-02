@@ -2,15 +2,15 @@ import { Button } from './Button'
 
 export function CallToAction() {
   return (
-    <div className="bg-slate-50">
+    <div className="bg-black">
       <div className="mx-auto max-w-5xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:px-8">
         <div>
-          <h2 className="my-6 text-3xl font-bold tracking-tight text-gray-900 md:text-4xl">
+          <h2 className="my-6 text-3xl font-bold tracking-tight text-white md:text-4xl">
             <span className="block">Ready to launch?</span>
-            <span className="block text-indigo-600">Let's get you set up</span>
+            <span className="block text-emerald-400">Let's get you set up</span>
           </h2>
 
-          <p className="my-6 max-w-xs text-gray-500">
+          <p className="my-6 max-w-xs text-zinc-200">
             Schedule a phone call or reach out via email and we'll get you what
             you need to make an informed decision.
           </p>
@@ -19,7 +19,7 @@ export function CallToAction() {
           <Button
             href="/contact"
             size="large"
-            className="hover:shadow hover:shadow-slate-600/50"
+            className="hover:shadow hover:shadow-zinc-600/50"
           >
             Let's Go
           </Button>

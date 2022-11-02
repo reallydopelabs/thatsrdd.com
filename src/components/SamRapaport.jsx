@@ -5,13 +5,13 @@ import { ActionLink } from './ActionLink'
 
 export function SamRapaport() {
   return (
-    <div className="bg-slate-50 py-16 lg:pb-24">
-      <div className="bg-gray-900 pb-16 lg:relative lg:z-10 lg:pb-0">
+    <div className="bg-black py-16 lg:pb-24">
+      <div className="bg-zinc-900 pb-16 lg:relative lg:z-10 lg:pb-0">
         <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
           <div className="relative lg:-my-8">
             <div
               aria-hidden="true"
-              className="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"
+              className="absolute inset-x-0 top-0 h-1/2 bg-black lg:hidden"
             />
             <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
               <div className="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl shadow-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
@@ -28,7 +28,7 @@ export function SamRapaport() {
               <blockquote>
                 <div>
                   <svg
-                    className="h-12 w-12 text-slate-600"
+                    className="h-12 w-12 text-zinc-600"
                     fill="currentColor"
                     viewBox="0 0 32 32"
                     aria-hidden="true"
@@ -47,10 +47,10 @@ export function SamRapaport() {
                   <p className="text-base font-medium text-white">
                     Sam Rapaport
                   </p>
-                  <p className="mb-4 text-base font-medium text-slate-300">
+                  <p className="mb-4 text-base font-medium text-zinc-300">
                     Founder of RDD
                   </p>
-                  <ActionLink href="/about" color="sky">
+                  <ActionLink href="/about" color="emerald">
                     Read about us
                   </ActionLink>
                 </footer>

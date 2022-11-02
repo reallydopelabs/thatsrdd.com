@@ -3,25 +3,30 @@ import clsx from 'clsx'
 
 const baseStyles = {
   solid:
-    'group inline-flex items-center justify-center rounded-lg font-semibold transition-all focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2',
+    'group inline-flex items-center justify-center rounded-full font-mono uppercase transition-all focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2',
   outline:
-    'group inline-flex ring-1 items-center justify-center rounded-lg focus:outline-none',
+    'group inline-flex ring-1 items-center justify-center rounded-full font-mono uppercase focus:outline-none',
 }
 
 const variantStyles = {
   solid: {
-    slate:
-      'bg-gray-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900',
-    blue: 'bg-blue-600 text-white hover:text-slate-100 hover:bg-blue-500 active:bg-blue-800 active:text-blue-100 focus-visible:outline-blue-600',
+    zinc:
+      'bg-gray-900 text-white hover:bg-zinc-700 hover:text-zinc-100 active:bg-zinc-800 active:text-zinc-300 focus-visible:outline-zinc-900',
+    blue: 'bg-blue-600 text-white hover:text-zinc-100 hover:bg-blue-500 active:bg-blue-800 active:text-blue-100 focus-visible:outline-blue-600',
     white:
-      'bg-white text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white',
-    indigo: 'bg-indigo-600 text-white hover:text-slate-100 hover:bg-indigo-500 active:bg-indigo-800 active:text-indigo-100 focus-visible:outline-indigo-600',
+      'bg-black text-zinc-900 hover:bg-blue-50 active:bg-blue-200 active:text-zinc-600 focus-visible:outline-white',
+    emerald:
+      'bg-emerald-400/20 text-emerald-400 hover:text-zinc-100 hover:bg-emerald-400/30 active:bg-emerald-800 active:text-emerald-100 focus-visible:outline-emerald-600',
   },
   outline: {
-    slate:
-      'ring-slate-200 text-slate-700 hover:text-slate-900 hover:ring-slate-300 active:bg-slate-100 active:text-slate-600 focus-visible:outline-blue-600 focus-visible:ring-slate-300',
+    zinc:
+      'ring-zinc-200 text-zinc-700 hover:text-zinc-900 hover:ring-zinc-300 active:bg-zinc-100 active:text-zinc-600 focus-visible:outline-blue-600 focus-visible:ring-zinc-300',
     white:
-      'ring-slate-700 text-white hover:ring-slate-500 active:ring-slate-700 active:text-slate-400 focus-visible:outline-white',
+      'ring-zinc-700 text-white hover:ring-zinc-500 active:ring-zinc-700 active:text-zinc-400 focus-visible:outline-white',
+    emerald:
+      'ring-emerald-400 text-white hover:ring-emerald-600 active:ring-emerald-400 active:text-emerald-400 focus-visible:outline-white',
+    purple:
+      'ring-purple-400 text-white hover:ring-purple-600 active:ring-purple-400 active:text-purple-400 focus-visible:outline-white',
   },
 }
 
@@ -33,7 +38,7 @@ const sizeStyles = {
 export function Button({
   variant = 'solid',
   size = 'base',
-  color = 'slate',
+  color = 'emerald',
   className,
   href,
   ...props

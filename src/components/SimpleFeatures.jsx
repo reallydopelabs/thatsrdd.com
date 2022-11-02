@@ -9,11 +9,11 @@ export function SimpleFeatures({ features, children, ...props }) {
               <dt>
                 {feature.icon}
 
-                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
+                <p className="ml-9 text-lg font-medium leading-6 text-white">
                   {feature.name}
                 </p>
               </dt>
-              <dd className="mt-2 ml-9 text-base text-gray-500">
+              <dd className="mt-2 ml-9 text-base text-zinc-200">
                 {feature.description}
               </dd>
             </div>

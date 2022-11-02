@@ -20,7 +20,7 @@ function MobileNavIcon({ open }) {
   return (
     <svg
       aria-hidden="true"
-      className="h-3.5 w-3.5 overflow-visible stroke-slate-700"
+      className="h-3.5 w-3.5 overflow-visible stroke-zinc-700"
       fill="none"
       strokeWidth={2}
       strokeLinecap="round"
@@ -62,7 +62,7 @@ function MobileNavigation() {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <Popover.Overlay className="fixed inset-0 bg-slate-300/50" />
+          <Popover.Overlay className="fixed inset-0 bg-zinc-300/50" />
         </Transition.Child>
         <Transition.Child
           as={Fragment}
@@ -75,7 +75,7 @@ function MobileNavigation() {
         >
           <Popover.Panel
             as="div"
-            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
+            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-black p-4 text-lg tracking-tight text-zinc-900 shadow-xl ring-1 ring-zinc-900/5"
           >
             <MobileNavLink href="/creators">Creators</MobileNavLink>
             <MobileNavLink href="/businesses">Businesses</MobileNavLink>
@@ -94,7 +94,7 @@ export function Header() {
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
             <Link href="/" aria-label="Home">
-              <Logo className="h-8 w-auto fill-slate-900" />
+              <Logo className="h-8 w-auto fill-white" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/creators">Creators</NavLink>
@@ -103,7 +103,7 @@ export function Header() {
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <Button href="/contact" color="slate">
+            <Button href="/contact" color="emerald">
               <span>
                 Get started <span className="hidden lg:inline">today</span>
               </span>

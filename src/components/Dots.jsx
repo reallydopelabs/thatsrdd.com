@@ -2,7 +2,7 @@ import clsx from "clsx";
 
 export function Dots({ className, children }) {
   return (
-    <div className={clsx('relative overflow-hidden', className)}>
+    <div className={clsx('relative overflow-hidden text-zinc-600', className)}>
       <div className="absolute inset-y-0 h-full w-full">
         <div
           className="relative h-full text-lg"
@@ -29,7 +29,7 @@ export function Dots({ className, children }) {
                   y={0}
                   width={4}
                   height={4}
-                  className="text-gray-200"
+                  className=""
                   fill="currentColor"
                 />
               </pattern>
@@ -61,7 +61,7 @@ export function Dots({ className, children }) {
                   y={0}
                   width={4}
                   height={4}
-                  className="text-gray-200"
+                  className=""
                   fill="currentColor"
                 />
               </pattern>
