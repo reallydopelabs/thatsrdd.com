@@ -75,7 +75,7 @@ function MobileNavigation() {
         >
           <Popover.Panel
             as="div"
-            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-black p-4 text-lg tracking-tight text-zinc-900 shadow-xl ring-1 ring-zinc-900/5"
+            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-black p-4 text-lg tracking-tight text-zinc-200 shadow-xl ring-1 ring-zinc-900/5"
           >
             <MobileNavLink href="/creators">Creators</MobileNavLink>
             <MobileNavLink href="/businesses">Businesses</MobileNavLink>
