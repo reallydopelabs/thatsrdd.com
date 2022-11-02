@@ -22,7 +22,7 @@ const testimonials = [
   [
     {
       content:
-        "I first met Sam in 2015 when we hired him at the creative agency I owned at the time. I knew it was only a matter of time before he would start his own thing. His work kicked ass and won us a ton of awards between 2015 and 2018. I've gone on to start several businesses since and use him and now RDG any time I need a website or custom software. ",
+        "I first met Sam in 2015 when we hired him at the creative agency I owned at the time. I knew it was only a matter of time before he would start his own thing. His work kicked ass and won us a ton of awards between 2015 and 2018. I've gone on to start several businesses since and use him and now RDD any time I need a website or custom software. ",
       author: {
         name: 'Corey Mangold',
         role: 'Entrepreneur',
@@ -42,7 +42,7 @@ const testimonials = [
     },
     {
       content:
-        "RDG got me set up with a website for my real estate business to show properties online and capture leads. I've already saved a ton of time no longer needing to import contacts manually and everyone in my office loves the design. Great work!",
+        "RDD got me set up with a website for my real estate business to show properties online and capture leads. I've already saved a ton of time no longer needing to import contacts manually and everyone in my office loves the design. Great work!",
       author: {
         name: 'Jeremy S',
         role: 'Realtor',

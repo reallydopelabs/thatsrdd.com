@@ -64,7 +64,7 @@ export default function Creators() {
   return (
     <>
       <Head>
-        <title>Turn your audience into a business | Rapaport Development Group</title>
+        <title>Turn your audience into a business | Really Dope Digital</title>
       </Head>
       <main>
         <ProductHero />

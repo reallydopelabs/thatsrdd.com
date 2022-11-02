@@ -143,7 +143,7 @@ export default function Businesses() {
       <Head>
         <title>
           Building next-level digital experiences that engage with consumers |
-          Rapaport Development Group
+          Really Dope Digital
         </title>
       </Head>
       <main>

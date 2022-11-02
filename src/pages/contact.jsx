@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Schedule a call or email us to get started | Rapaport Development Group</title>
+        <title>Schedule a call or email us to get started | Really Dope Digital</title>
         <meta name="description" content="Schedule a call or email us to get started" />
       </Head>
       <main>

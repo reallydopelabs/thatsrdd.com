@@ -48,7 +48,7 @@ export function SamRapaport() {
                     Sam Rapaport
                   </p>
                   <p className="mb-4 text-base font-medium text-slate-300">
-                    Founder of RDG
+                    Founder of RDD
                   </p>
                   <ActionLink href="/about" color="sky">
                     Read about us

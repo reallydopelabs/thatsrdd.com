@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About RDG</title>
+        <title>About RDD</title>
       </Head>
 
       <main>
@@ -122,7 +122,7 @@ export default function About() {
                   About
                 </span>
                 <span className="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-                  Rapaport Development Group
+                  Really Dope Digital
                 </span>
               </h1>
               <p className="mt-8 text-xl leading-8 text-gray-500">
