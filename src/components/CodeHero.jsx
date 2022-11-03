@@ -14,7 +14,7 @@ export function CodeHero() {
     <div className="bg-black">
       <Container className="pt-12 pb-16 text-left sm:pb-24 lg:text-center">
         <h1 className="text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:max-w-3xl md:text-6xl lg:mx-auto">
-          Design and development services to elevate your online presence
+          Design and development services that <span className="text-purple-400">elevate your online presence</span>
         </h1>
         <p className="mx-auto mt-6 max-w-md text-lg text-zinc-200 md:mt-5 md:max-w-3xl md:text-xl">
           From eye catching landing pages to interactive branded websites, we
