@@ -21,7 +21,7 @@ export function Footer() {
         <div className="flex flex-col items-center border-t border-zinc-400/10 py-10 sm:flex-row-reverse sm:justify-between">
           <div className="flex gap-x-6">
             <Link
-              href="https://twitter.com/thesamrapaport"
+              href="https://twitter.com/thatsrdd"
               className="group"
               aria-label="Sam Rapaport on Twitter"
             >
@@ -33,7 +33,7 @@ export function Footer() {
               </svg>
             </Link>
             <Link
-              href="https://github.com/samrap"
+              href="https://github.com/reallydopelabs"
               className="group"
               aria-label="Sam Rapaport on GitHub"
             >
