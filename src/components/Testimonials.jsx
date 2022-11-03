@@ -108,7 +108,7 @@ export function Testimonials() {
                           </div>
                           <div className="overflow-hidden rounded-full bg-zinc-50">
                             <Image
-                              className="h-14 w-14 object-cover"
+                              className="h-14 w-14 object-cover grayscale"
                               src={testimonial.author.image}
                               alt=""
                               width={56}
