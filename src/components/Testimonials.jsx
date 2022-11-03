@@ -42,7 +42,7 @@ const testimonials = [
     },
     {
       content:
-        "RDD got me set up with a website for my real estate business to show properties online and capture leads. I've already saved a ton of time no longer needing to import contacts manually and everyone in my office loves the design. Great work!",
+        "I went to RDD with an idea for my real estate website and they brought it to life. They made it look flawless and from that I've acquired numerous clients. If you're looking for a website to be professionally made, RDD is the choice!",
       author: {
         name: 'Jeremy S',
         role: 'Realtor',
