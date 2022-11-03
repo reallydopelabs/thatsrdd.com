@@ -177,22 +177,22 @@ function Stack() {
       </p>
       <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
         <div className="col-span-1 flex justify-center bg-zinc-800 py-8 px-8">
-          <LaravelLogo className="max-h-12 fill-white"></LaravelLogo>
+          <LaravelLogo className="h-12 fill-white"></LaravelLogo>
         </div>
         <div className="col-span-1 flex justify-center bg-zinc-800 py-8 px-8">
-          <NextLogo className="max-h-12 fill-white"></NextLogo>
+          <NextLogo className="h-12 fill-white"></NextLogo>
         </div>
         <div className="col-span-1 flex justify-center bg-zinc-800 py-8 px-8">
-          <TailwindLogo className="max-h-6 fill-white"></TailwindLogo>
+          <TailwindLogo className="h-12 fill-white"></TailwindLogo>
         </div>
         <div className="col-span-1 flex justify-center bg-zinc-800 py-8 px-8">
-          <GhostLogo className="max-h-12 fill-white"></GhostLogo>
+          <GhostLogo className="h-12 fill-white"></GhostLogo>
         </div>
         <div className="col-span-1 flex justify-center bg-zinc-800 py-8 px-8">
-          <AmazonLogo className="max-h-12 fill-white"></AmazonLogo>
+          <AmazonLogo className="h-12 fill-white"></AmazonLogo>
         </div>
         <div className="col-span-1 flex justify-center bg-zinc-800 py-8 px-8">
-          <TerraformLogo className="max-h-12 fill-white"></TerraformLogo>
+          <TerraformLogo className="h-12 fill-white"></TerraformLogo>
         </div>
       </div>
     </Container>

@@ -18,7 +18,7 @@ export default function Contact() {
       <main>
         <Container className="pt-12 pb-16 lg:pt-32 lg:pb-32">
           <div>
-            <h2 className="text-sm font-bold uppercase text-emerald-600">
+            <h2 className="text-sm font-bold uppercase text-emerald-400">
               Contact Us
             </h2>
             <p className="my-6 max-w-lg text-3xl font-bold leading-normal tracking-tight text-white lg:text-4xl">
@@ -27,7 +27,7 @@ export default function Contact() {
             <p className="my-6 max-w-2xl text-lg text-zinc-200">
               Whether you're ready to get moving on a project right away or just
               want some more info, we're here to talk. Schedule a call online or
-              email us at <strong>me@samrapaport.com</strong>.
+              email us at <strong>hey@thatsrdd.com</strong>.
             </p>
 
             <div class="mt-8">
