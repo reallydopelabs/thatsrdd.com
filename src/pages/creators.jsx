@@ -65,6 +65,7 @@ export default function Creators() {
     <>
       <Head>
         <title>Turn your audience into a business | Really Dope Digital</title>
+        <meta name="description" content="We build websites on Ghost for new media creators to own their platform, monetize content, and grow audiences." />
       </Head>
       <main>
         <ProductHero />

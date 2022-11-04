@@ -327,8 +327,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Crafting websites for the modern internet | Really Dope Digital</title>
-        <meta name="description" content="Creators and businesses work with us to build modern digital experiences for their brands. Whether you're a new creator looking to build an audience or a business in need of a beautiful website, we've got you covered." />
+        <title>Crafting digital experiences for the modern internet | Really Dope Digital</title>
+        <meta name="description" content="Creators and businesses work with us to build modern digital experiences for their brands. Whether you're a new creator looking to build an audience or a business in need of a beautiful website, RDD has you covered." />
       </Head>
       <main>
         <SimpleHero />

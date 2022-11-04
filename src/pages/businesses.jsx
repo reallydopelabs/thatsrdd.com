@@ -142,9 +142,10 @@ export default function Businesses() {
     <>
       <Head>
         <title>
-          Building next-level digital experiences that engage with consumers |
+          Building next-level digital experiences |
           Really Dope Digital
         </title>
+        <meta name="description" content="We craft websites that are intuitive, beautiful, and optimized across all devices so you can build meaningful relationships with your consumers, wherever they are." />
       </Head>
       <main>
         <CodeHero></CodeHero>
