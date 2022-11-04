@@ -193,7 +193,7 @@ export function GhostIntro() {
               ))}
             </dl>
 
-            <div class="mt-10 text-lg">
+            <div className="mt-10 text-lg">
               <ActionLink href="https://ghost.org" target="_blank" color="emerald">
                 Learn more on ghost.org
               </ActionLink>
@@ -279,7 +279,7 @@ export function GhostIntro() {
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-8">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-bold leading-normal tracking-tight text-white sm:text-3xl">
-                We know the platform,<span class="hidden lg:block"></span>{' '}
+                We know the platform,<span className="hidden lg:block"></span>{' '}
                 inside and out.
               </h3>
               <p className="mt-3 text-lg text-zinc-200">
@@ -291,7 +291,7 @@ export function GhostIntro() {
                 we've done it all.
               </p>
 
-              <div class="mt-10 text-lg">
+              <div className="mt-10 text-lg">
                 <ActionLink href="#quillette" color="emerald">
                   Read our case study on <em>Quillette</em>
                 </ActionLink>
@@ -332,7 +332,7 @@ export function GhostIntro() {
                   fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
                 />
               </svg>
-              <div class="relative mx-auto max-w-lg">
+              <div className="relative mx-auto max-w-lg">
                 <Image src={screenshotGhostInstall} />
               </div>
             </div>

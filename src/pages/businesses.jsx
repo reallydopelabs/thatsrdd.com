@@ -157,7 +157,7 @@ export default function Businesses() {
                 Stand Apart
               </h2>
               <p className="my-6 max-w-xl text-3xl font-bold leading-normal tracking-tight text-white lg:text-4xl">
-                Building next-level digital experiences <span class="block sm:hidden"></span>that engage with
+                Building next-level digital experiences <span className="block sm:hidden"></span>that engage with
                 consumers
               </p>
               <p className="my-6 max-w-3xl text-lg text-zinc-200">

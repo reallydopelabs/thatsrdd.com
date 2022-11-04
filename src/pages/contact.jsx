@@ -30,7 +30,7 @@ export default function Contact() {
               email us at <strong>hey@thatsrdd.com</strong>.
             </p>
 
-            <div class="mt-8">
+            <div className="mt-8">
               <Button
                 href="https://calendly.com/samrapaport"
                 target="_blank"

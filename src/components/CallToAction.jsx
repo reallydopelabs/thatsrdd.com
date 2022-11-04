@@ -7,7 +7,7 @@ export function CallToAction() {
     <div className="pt-12 bg-black">
       <Container>
         <div className="md:flex md:items-center md:justify-between">
-          <div class="max-w-sm">
+          <div className="max-w-sm">
             <h2 className="my-6 text-3xl font-bold tracking-tight text-white md:text-4xl">
               <span className="block">Ready to launch?</span>
               <span className="block text-emerald-400">
