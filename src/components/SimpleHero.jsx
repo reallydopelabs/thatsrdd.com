@@ -29,7 +29,7 @@ export function SimpleHero() {
         />
 
       <div className="relative z-10 text-left sm:text-center">
-        <h1 className="inline-block font-bold text-sm text-purple-400 uppercase">Really Dope Digital</h1>
+        <h1 className="inline-block font-bold text-sm text-emerald-400 uppercase">Really Dope Digital</h1>
         <p className="mx-auto my-6 text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:max-w-3xl md:text-6xl">
           Crafting websites<span className="block sm:hidden"></span> for the
           modern internet
