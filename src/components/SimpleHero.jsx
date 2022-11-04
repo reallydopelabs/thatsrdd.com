@@ -29,7 +29,7 @@ export function SimpleHero() {
         />
 
       <div className="relative z-10 text-left sm:text-center">
-        <h1 class="font-bold text-sm text-emerald-400 uppercase">Really Dope Digital</h1>
+        <h1 class="font-bold text-sm uppercase bg-[radial-gradient(138.06%_1036.51%_at_95.25%_-2.54%,_#c084fc_14.06%,#34d399_51.02%,#9333ea_79.09%)] bg-clip-text text-transparent">Really Dope Digital</h1>
         <p className="mx-auto my-6 text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:max-w-3xl md:text-6xl">
           Crafting websites<span className="block sm:hidden"></span> for the
           modern internet
