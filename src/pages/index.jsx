@@ -55,10 +55,7 @@ function Segments() {
               <blockquote>
                 <div>
                   <p className="text-base text-zinc-200">
-                    &ldquo;Sam's expertise in scaling content platforms more
-                    than doubled our five-figure monthly revenue in under a year
-                    while cutting costs and improving the overall
-                    platform.&rdquo;
+                    &ldquo;RDD's expertise in scaling content platforms has helped to double our revenue, greatly improved our technical infrastructure while at the same time delivering extensive cost savings.&rdquo;
                   </p>
                 </div>
                 <footer className="mt-3">
@@ -71,7 +68,7 @@ function Segments() {
                       />
                     </div>
                     <div className="text-base font-medium text-zinc-400">
-                      Claire Lehmann, Founder &amp; Editor at <em>Quillette</em>
+                      Claire Lehmann, CEO <em>Quillette</em>
                     </div>
                   </div>
                 </footer>

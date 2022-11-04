@@ -11,10 +11,10 @@ const testimonials = [
   [
     {
       content:
-        "Sam and his team have been such a pleasure to work with over the last year. We're making improvements to the site on a monthly basis and getting actionable feedback and advice in our Slack chats. Their work has been paramount to our growth and we very much look forward to our continued partnership.",
+        "Sam's technical acumen and professional manner has been indispensable to our company. Sam responds to requests rapidly and delivers solutions with careful precision and attention to detail. Having a holistic attitude towards business, Sam has ensured that our company has greatly improved technical infrastructure while at the same time delivering extensive cost savings. His services are highly recommended.",
       author: {
         name: 'Claire Lehmann',
-        role: 'Founder, Quillette',
+        role: 'CEO, Quillette',
         image: avatarClaireLehmann,
       },
     },
