@@ -9,6 +9,11 @@ export default function Document(props) {
       lang="en"
     >
       <Head>
+        <meta property="og:image" name="og:image" content="/og-image.png" />
+
+        <meta name="twitter:image" content="/og-image.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
