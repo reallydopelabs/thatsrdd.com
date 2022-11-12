@@ -66,7 +66,7 @@ export function CaseStudy() {
                 has been recent and we expect to accelarate even further thanks
                 to improvements to the platform and our continued collaboration.
               </p>
-              <h3 class="text-white">Building lasting partnerships</h3>
+              <h3 className="text-white">Building lasting partnerships</h3>
               <p>
                 We genuinely care about our clients' success. It's why we focus
                 on building lasting relationships rather than treating your
