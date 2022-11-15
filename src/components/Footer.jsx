@@ -46,7 +46,7 @@ export function Footer() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-zinc-500 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} Really Dope Digital.
+            Copyright &copy; {new Date().getFullYear()} Really Dope Digital LLC.
           </p>
         </div>
       </Container>
