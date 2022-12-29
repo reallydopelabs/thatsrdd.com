@@ -2,7 +2,7 @@
   <div>
     <Header />
 
-    <NuxtLoadingIndicator />
+    <NuxtLoadingIndicator color="linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(0,0,196,1) 100%)" />
     <NuxtPage />
 
     <Footer />
