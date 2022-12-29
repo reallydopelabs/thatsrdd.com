@@ -21,6 +21,8 @@
         </div>
       </DopeContainer>
     </DopeSection>
+
+    <DopeCta></DopeCta>
   </div>
 </template>
 

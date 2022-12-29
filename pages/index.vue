@@ -171,7 +171,7 @@
         </DopeTagline>
 
         <div class="mt-8 text-center">
-          <DopeButton variant="light">Create with us</DopeButton>
+          <DopeButton to="/contact" variant="light">Create with us</DopeButton>
         </div>
       </DopeContainer>
     </DopeSection>
@@ -213,6 +213,8 @@
         </div>
       </div>
     </DopeSection>
+
+    <DopeCta></DopeCta>
   </div>
 </template>
 

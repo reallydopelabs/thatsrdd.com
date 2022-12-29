@@ -37,6 +37,8 @@
         </div>
       </DopeContainer>
     </DopeSection>
+
+    <DopeCta></DopeCta>
   </div>
   <div v-else>
     Loading...
