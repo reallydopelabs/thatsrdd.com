@@ -32,20 +32,20 @@
 
       <DopeContainer>
         <div class="mt-16 grid grid-cols-1 gap-8 xl:mt-24 xl:grid-cols-3">
-          <div class="relative">
+          <div class="relative" data-aos="fade-up">
             <div class="absolute mb-4 text-3xl xl:relative">&#10036;&#xFE0E;</div>
             <p class="ml-8 max-w-sm text-2xl font-medium xl:ml-0">
               Really Dope Digital is a full service digital consultancy.
             </p>
           </div>
-          <div class="relative">
+          <div class="relative" data-aos="fade-up">
             <div class="absolute mb-4 text-3xl xl:relative">&#10036;&#xFE0E;</div>
             <p class="ml-8 max-w-sm text-2xl font-medium xl:ml-0">
               We connect a decade of expertise in design and development with brands and content creators to create
               elevated experiences on the web.
             </p>
           </div>
-          <div class="relative">
+          <div class="relative" data-aos="fade-up">
             <div class="absolute mb-4 text-3xl xl:relative">&#10036;&#xFE0E;</div>
             <p class="ml-8 max-w-sm text-2xl font-medium xl:ml-0">
               From concept through production, RDD has the answers and skills to build strong brand and technical
@@ -58,7 +58,7 @@
 
     <DopeSection id="capabilities">
       <DopeContainer>
-        <div class="xl:flex">
+        <div class="xl:flex" data-aos="fade-up">
           <div class="xl:w-1/2">
             <DopeHeading level="h2" class="mb-10">Capabilities</DopeHeading>
           </div>
@@ -69,7 +69,7 @@
             </p>
 
             <dl class="mt-14 space-y-6 divide-y divide-neutral-900">
-              <Disclosure as="div" v-for="service in services" :key="service.name" class="pt-6" v-slot="{ open }">
+              <Disclosure as="div" v-for="service in services" :key="service.name" class="pt-6" v-slot="{ open }" data-aos="fade-in">
                 <dt class="text-lg">
                   <DisclosureButton class="flex w-full items-start justify-between text-left">
                     <DopeHeading level="h3" as="span">{{ service.name }}</DopeHeading>
@@ -108,19 +108,19 @@
         <DopeContainer>
           <div class="xl:flex xl:items-end xl:justify-between">
             <DopeHeading level="h2" class="mb-10 max-w-xl">Selected Work</DopeHeading>
-            <DopeButton to="/projects">View All Work</DopeButton>
+            <DopeButton to="/projects" data-aos="fade-left" data-aos-delay="250">View All Work</DopeButton>
           </div>
         </DopeContainer>
       </header>
 
       <DopeContainer>
         <div v-if="projects" class="grid grid-cols-1 gap-12 xl:grid-cols-2">
-          <div v-for="project in projects.data" :key="project.id" class="xl:[&:nth-child(2n)]:pt-24">
+          <div v-for="project in projects.data" :key="project.id" class="xl:[&:nth-child(2n)]:pt-24" data-aos="zoom-in">
             <ProjectCard :project="project" />
           </div>
         </div>
 
-        <div class="mt-12 text-center">
+        <div class="mt-12 text-center" data-aos="fade-up">
           <DopeButton to="/projects">View All Work</DopeButton>
         </div>
       </DopeContainer>
@@ -149,7 +149,9 @@
           <div
             v-for="(step, i) in ourProcess"
             :key="i"
-            class="flex flex-col justify-between border-t border-neutral-900 pt-8 xl:border-l xl:border-t-0 xl:pl-2 xl:pt-0">
+            class="flex flex-col justify-between border-t border-neutral-900 pt-8 xl:border-l xl:border-t-0 xl:pl-2 xl:pt-0"
+            data-aos="fade-down"
+            :data-aos-delay="i * 250">
             <div class="mb-8 text-7xl xl:order-last xl:mb-0">
               {{ String(i + 1).padStart(2, '0') }}
             </div>

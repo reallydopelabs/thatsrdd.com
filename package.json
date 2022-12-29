@@ -21,6 +21,7 @@
     "@headlessui/tailwindcss": "^0.1.2",
     "@headlessui/vue": "^1.7.7",
     "@heroicons/vue": "^2.0.13",
+    "aos": "^2.3.4",
     "chaffle": "^2.1.0",
     "qs": "^6.11.0",
     "vanilla-marquee": "^1.1.2",

@@ -27,10 +27,6 @@ useHead({
 })
 </script>
 
-<script>
-import 'vue3-marquee/dist/style.css'
-</script>
-
 <style>
 .page-enter-active,
 .page-leave-active {
