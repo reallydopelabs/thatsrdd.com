@@ -16,10 +16,6 @@
       </DopeContainer>
     </section>
 
-    <DopeContainer class="text-center p-24">
-      <span class="block p-24 text-[400px]">&#10036;</span>
-    </DopeContainer>
-
     <DopeSection id="intro" class="bg-neutral-900 text-neutral-300">
       <header>
         <DopeContainer>
