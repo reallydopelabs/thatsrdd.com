@@ -3,15 +3,19 @@
     <section id="hero" class="flex items-center justify-center overflow-hidden pt-48 pb-36 2xl:h-screen">
       <DopeContainer>
         <div class="grid grid-cols-4 items-center justify-between">
-          <div class="col-span-4 text-8xl font-bold uppercase xl:text-9xl" data-chaffle="en">Really</div>
-          <div class="col-span-2 text-8xl font-bold uppercase xl:text-9xl">
+          <div class="col-span-4 whitespace-nowrap text-8xl font-bold uppercase xl:text-9xl" data-chaffle="en">
+            Really
+          </div>
+          <div class="col-span-2 whitespace-nowrap text-8xl font-bold uppercase xl:text-9xl">
             <span data-chaffle="en">Dope</span>&#10036;&#xFE0E;
           </div>
           <div
             class="order-last col-span-4 mt-12 indent-16 text-2xl font-medium sm:order-none sm:col-span-2 sm:mt-0 xl:text-4xl">
             We craft <em class="underline">modern digital experiences</em> that elevate brands and creators online.
           </div>
-          <div class="col-span-4 text-8xl font-bold uppercase xl:text-9xl" data-chaffle="en">Digital</div>
+          <div class="col-span-4 whitespace-nowrap text-8xl font-bold uppercase xl:text-9xl" data-chaffle="en">
+            Digital
+          </div>
         </div>
       </DopeContainer>
     </section>

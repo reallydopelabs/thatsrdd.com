@@ -3,7 +3,7 @@
     <DopeContainer>
       <div class="md:flex md:items-center md:justify-between">
         <div class="max-w-2xl flex-grow">
-          <DopeTagline class="mb-8">Are you ready to build something dope?</DopeTagline>
+          <DopeTagline class="mb-8">Are you ready to build <span data-chaffle>something dope</span>?</DopeTagline>
         </div>
         <DopeButton to="/contact">Get in touch</DopeButton>
       </div>
