@@ -4,9 +4,9 @@
       <div class="grid md:grid-cols-4 gap-8">
         <div class="col-span-1">
           <h6 class="mb-2"><span class="font-light">&copy;</span> Really Dope Digital LLC.</h6>
-          <a href="#" class="block">Instagram</a>
-          <a href="#" class="block">Twitter</a>
-          <a href="#" class="block">Pinterest</a>
+          <a target="_blank" href="https://instagram.com/magxsamrapaport" class="block">Instagram</a>
+          <a target="_blank" href="https://twitter.com/thatsrdd" class="block">Twitter</a>
+          <a target="_blank" href="https://www.pinterest.com/reallydopedigital" class="block">Pinterest</a>
         </div>
         <div class="col-span-1">
           <h6 class="mb-2">Los Angeles</h6>
@@ -17,20 +17,20 @@
         </div>
         <div class="col-span-1 md:col-span-2">
           <h6 class="mb-2">Explore</h6>
-          <a href="#" class="block">Projects</a>
-        <a href="#" class="block">Services</a>
-        <a href="#" class="block">About</a>
-        <a href="#" class="block">Work with us</a>
+          <NuxtLink to="/projects" class="block">Work</NuxtLink>
+        <NuxtLink to="/coming-soon" class="block">Ideas</NuxtLink>
+        <NuxtLink to="/about" class="block">About</NuxtLink>
+        <NuxtLink to="/contact" class="block">Get in touch</NuxtLink>
         </div>
       </div>
     </DopeContainer>
 
     <div>
       <Vue3Marquee class="text-7xl font-bold text-neutral-500 uppercase">
-        <span class="mr-12">Really dope <span class="text-neutral-300 italic">design.</span></span>
-        <span class="mr-12">Really dope <span class="text-neutral-300 italic">UI.</span></span>
-        <span class="mr-12">Really dope <span class="text-neutral-300 italic">branding.</span></span>
-        <span class="mr-12"><span class="text-neutral-300">Really Dope Digital.</span></span>
+        <span>Really dope <span class="text-neutral-300">design</span><span class="mx-8">&#10036;&#xFE0E;</span></span>
+        <span>Really dope <span class="text-neutral-300">UI</span><span class="mx-8">&#10036;&#xFE0E;</span></span>
+        <span>Really dope <span class="text-neutral-300">branding</span><span class="mx-8">&#10036;&#xFE0E;</span></span>
+        <span><span class="text-neutral-300">Really Dope Digital</span><span class="mx-8">&#10036;&#xFE0E;</span></span>
       </Vue3Marquee>
     </div>
   </footer>

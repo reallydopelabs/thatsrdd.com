@@ -32,6 +32,7 @@
           <NuxtLink @click="close" to="/projects" class="block py-2">Work</NuxtLink>
           <NuxtLink @click="close" to="/coming-soon" class="block py-2">Ideas</NuxtLink>
           <NuxtLink @click="close" to="/about" class="block py-2">About</NuxtLink>
+          <NuxtLink @click="close" to="/contact" class="block py-2">Get in touch</NuxtLink>
         </nav>
         </DopeContainer>
       </PopoverPanel>
