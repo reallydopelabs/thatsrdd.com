@@ -13,7 +13,6 @@ export default [
     includes: [
       'Web Design',
       'Web Development',
-      'Ecommerce',
       'App Development',
       'Digital Experiences',
     ],
@@ -21,6 +20,27 @@ export default [
   {
     name: 'Media',
     includes: ['Photography', 'Editorial Design', 'Social Media Content'],
+  },
+  {
+    name: 'Ecommerce',
+    includes: [
+      'Platform Migrations',
+      'Inventory Management',
+      'Customer Management',
+      'PIM Implementations',
+      'Fulfillment',
+      'Custom Integrations',
+    ],
+  },
+  {
+    name: 'Product',
+    includes: [
+      'Discovery',
+      'Vision & Strategy',
+      'Competitive Research',
+      'Market Analysis',
+      'Development'
+    ],
   },
   {
     name: 'Consulting',
