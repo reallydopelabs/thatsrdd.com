@@ -1,6 +1,5 @@
 ![og-image](https://user-images.githubusercontent.com/5227553/200390803-d9a2026e-1bb7-4223-b85c-3a6615437381.png)
 
-
 # Really Dope Digital Website
 
 This is the source code of the official [Really Dope Digital website](https://thatsrdd.com).

@@ -15,12 +15,19 @@ export default defineNuxtPlugin(() => {
       chaffle.init()
     })
 
-    window.addEventListener('scroll', throttle(() => {
-      if (window.scrollY + window.innerHeight / 2 >= el.offsetTop && !scrolled.includes(i)) {
-        window.scrollY + window.innerHeight / 2 >= el.offsetTop && chaffle.init()
+    window.addEventListener(
+      'scroll',
+      throttle(() => {
+        if (
+          window.scrollY + window.innerHeight / 2 >= el.offsetTop &&
+          !scrolled.includes(i)
+        ) {
+          window.scrollY + window.innerHeight / 2 >= el.offsetTop &&
+            chaffle.init()
 
-        scrolled.push(i)
-      }
-    }))
+          scrolled.push(i)
+        }
+      })
+    )
   })
 })

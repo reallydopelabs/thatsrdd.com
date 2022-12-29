@@ -1,3 +1,3 @@
 <template>
-  <span class="font-bold tracking-tighter leading-none">RDD</span>
+  <span class="font-bold leading-none tracking-tighter">RDD</span>
 </template>

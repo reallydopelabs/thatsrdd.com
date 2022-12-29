@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="hero" class="flex items-center justify-center pt-48 pb-36 2xl:h-screen overflow-hidden">
+    <section id="hero" class="flex items-center justify-center overflow-hidden pt-48 pb-36 2xl:h-screen">
       <DopeContainer>
         <div class="grid grid-cols-4 items-center justify-between">
           <div class="col-span-4 text-8xl font-bold uppercase xl:text-9xl" data-chaffle="en">Really</div>
@@ -44,7 +44,8 @@
           <div class="relative">
             <div class="absolute mb-4 text-3xl xl:relative">&#10036;&#xFE0E;</div>
             <p class="ml-8 max-w-sm text-2xl font-medium xl:ml-0">
-              From concept through production, RDD has the answers and skills to build strong brand and technical visions into reality.
+              From concept through production, RDD has the answers and skills to build strong brand and technical
+              visions into reality.
             </p>
           </div>
         </div>
@@ -196,7 +197,7 @@
                   {{ testimonial.statement }}
                 </p>
                 <figcaption class="flex items-center gap-4">
-                  <div class="h-12 w-12 rounded-full bg-neutral-900 overflow-hidden">
+                  <div class="h-12 w-12 overflow-hidden rounded-full bg-neutral-900">
                     <img :src="testimonial.avatar" :alt="testimonial.client" class="object-fit grayscale" />
                   </div>
                   <div>
@@ -210,10 +211,14 @@
         </div>
 
         <div class="absolute top-0 right-4 inline-flex gap-4">
-          <button @click="slideBack" class="flex items-center justify-center h-8 w-8 rounded-full border border-neutral-900">
+          <button
+            @click="slideBack"
+            class="flex h-8 w-8 items-center justify-center rounded-full border border-neutral-900">
             <ChevronLeftIcon class="inline-block w-5"></ChevronLeftIcon>
           </button>
-          <button @click="slideForward" class="flex items-center justify-center h-8 w-8 rounded-full border border-neutral-900">
+          <button
+            @click="slideForward"
+            class="flex h-8 w-8 items-center justify-center rounded-full border border-neutral-900">
             <ChevronRightIcon class="w-5"></ChevronRightIcon>
           </button>
         </div>

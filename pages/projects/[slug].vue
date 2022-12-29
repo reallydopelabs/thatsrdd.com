@@ -7,7 +7,7 @@
     <section class="pt-24 xl:pt-36">
       <header>
         <DopeContainer>
-          <div class="flex flex-col lg:flex-row lg:justify-between gap-8">
+          <div class="flex flex-col gap-8 lg:flex-row lg:justify-between">
             <DopeHeading level="h1" as="h1">
               {{ project.data.attributes.name }}
             </DopeHeading>
@@ -40,9 +40,7 @@
 
     <DopeCta></DopeCta>
   </div>
-  <div v-else>
-    Loading...
-  </div>
+  <div v-else>Loading...</div>
 </template>
 
 <script setup>

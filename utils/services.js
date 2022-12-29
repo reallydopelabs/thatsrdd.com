@@ -1,11 +1,22 @@
 export default [
   {
     name: 'Branding',
-    includes: ['Brand Strategy', 'Visual Identity', 'Copywriting', 'Creative Direction'],
+    includes: [
+      'Brand Strategy',
+      'Visual Identity',
+      'Copywriting',
+      'Creative Direction',
+    ],
   },
   {
     name: 'Digital',
-    includes: ['Web Design', 'Web Development', 'Ecommerce', 'App Development', 'Digital Experiences'],
+    includes: [
+      'Web Design',
+      'Web Development',
+      'Ecommerce',
+      'App Development',
+      'Digital Experiences',
+    ],
   },
   {
     name: 'Media',

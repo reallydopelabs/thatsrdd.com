@@ -1,7 +1,7 @@
 <template>
   <NuxtLink :to="`/projects/${props.project.id}`" class="group">
     <div
-      class="aspect-w-4 aspect-h-5 relative z-0 bg-neutral-900 transition-all duration-1000 ease-in-out group-hover:scale-105 origin-bottom">
+      class="aspect-w-4 aspect-h-5 relative z-0 origin-bottom bg-neutral-900 transition-all duration-1000 ease-in-out group-hover:scale-105">
       <img
         v-if="props.project.attributes.card.data"
         :src="props.project.attributes.card.data.attributes.url"

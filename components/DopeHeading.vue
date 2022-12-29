@@ -11,7 +11,7 @@ const props = defineProps({
     required: true,
     validator(value) {
       return Object.keys(variants).includes(value)
-    }
+    },
   },
   as: String,
 })
@@ -19,9 +19,9 @@ const props = defineProps({
 
 <script>
 const variants = {
-  'h1': 'text-7xl xl:text-8xl font-bold uppercase',
-  'h2': 'text-7xl xl:text-8xl font-medium',
-  'h3': 'text-3xl font-medium',
-  'h4': 'text-3xl font-bold uppercase',
+  h1: 'text-7xl xl:text-8xl font-bold uppercase',
+  h2: 'text-7xl xl:text-8xl font-medium',
+  h3: 'text-3xl font-medium',
+  h4: 'text-3xl font-bold uppercase',
 }
 </script>
