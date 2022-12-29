@@ -2,7 +2,7 @@
   <Popover class="fixed top-0 left-0 z-40 w-full p-2 ui-not-open:mix-blend-difference ui-not-open:invert transition-all duration-500 ease-in-out sm:p-4">
     <div class="mx-auto z-10 relative flex w-full max-w-8xl items-center justify-between border border-neutral-900">
       <div class="pl-4 shrink-0">
-        <NuxtLink @click="closeMenu" to="/">
+        <NuxtLink @click="close" to="/">
           <DopeLogo class="text-5xl ui-open:text-neutral-300" />
         </NuxtLink>
       </div>
@@ -41,6 +41,4 @@
 
 <script setup>
 import { Popover, PopoverButton, PopoverGroup, PopoverPanel } from '@headlessui/vue'
-
-const closeMenu = () => close()
 </script>
