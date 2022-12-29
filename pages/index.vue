@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="hero" class="flex items-center justify-center pt-48 pb-36 2xl:h-screen">
+    <section id="hero" class="flex items-center justify-center pt-48 pb-36 2xl:h-screen overflow-hidden">
       <DopeContainer>
         <div class="grid grid-cols-4 items-center justify-between">
           <div class="col-span-4 text-8xl font-bold uppercase xl:text-9xl" data-chaffle="en">Really</div>
@@ -15,6 +15,10 @@
         </div>
       </DopeContainer>
     </section>
+
+    <DopeContainer class="text-center p-24">
+      <span class="block p-24 text-[400px]">&#10036;</span>
+    </DopeContainer>
 
     <DopeSection id="intro" class="bg-neutral-900 text-neutral-300">
       <header>
@@ -179,7 +183,7 @@
     <DopeSection id="proof">
       <header>
         <DopeContainer>
-          <DopeHeading level="h2">Proof</DopeHeading>
+          <DopeHeading level="h2">Results</DopeHeading>
           <p class="mt-12 max-w-3xl text-2xl font-medium">
             As a small team, we care deeply about every project and aim to build ongoing, long-term success with our
             clients. Read what some of them have to say about RDD.
@@ -188,7 +192,7 @@
       </header>
 
       <div class="relative mx-auto mt-4 w-full max-w-7xl pt-20 pl-4 xl:pl-8">
-        <div class="scrollbar-none flex gap-8 overflow-x-scroll 2xl:mr-[calc(-100vw/2+1280px/2)]">
+        <div ref="scrollContainer" class="scrollbar-none flex gap-8 overflow-x-scroll 2xl:mr-[calc(-100vw/2+1280px/2)]">
           <div v-for="(testimonial, i) in testimonials" :key="i" class="w-4/5 shrink-0 xl:w-2/5">
             <figure class="h-full">
               <blockquote class="flex h-full flex-col justify-between">
@@ -196,7 +200,9 @@
                   {{ testimonial.statement }}
                 </p>
                 <figcaption class="flex items-center gap-4">
-                  <div class="h-12 w-12 rounded-full bg-neutral-900"></div>
+                  <div class="h-12 w-12 rounded-full bg-neutral-900 overflow-hidden">
+                    <img :src="testimonial.avatar" :alt="testimonial.client" class="object-fit grayscale" />
+                  </div>
                   <div>
                     <span class="block font-medium">{{ testimonial.client }}</span>
                     <span class="block">{{ testimonial.role }}</span>
@@ -207,9 +213,13 @@
           </div>
         </div>
 
-        <div class="absolute top-0 right-0 inline-flex gap-4">
-          <button class="h-8 w-8 rounded-full border border-neutral-900"></button>
-          <button class="h-8 w-8 rounded-full border border-neutral-900"></button>
+        <div class="absolute top-0 right-4 inline-flex gap-4">
+          <button @click="slideBack" class="flex items-center justify-center h-8 w-8 rounded-full border border-neutral-900">
+            <ChevronLeftIcon class="inline-block w-5"></ChevronLeftIcon>
+          </button>
+          <button @click="slideForward" class="flex items-center justify-center h-8 w-8 rounded-full border border-neutral-900">
+            <ChevronRightIcon class="w-5"></ChevronRightIcon>
+          </button>
         </div>
       </div>
     </DopeSection>
@@ -220,7 +230,7 @@
 
 <script setup>
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
-import { ChevronDownIcon } from '@heroicons/vue/24/outline/index.js'
+import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon } from '@heroicons/vue/24/outline/index.js'
 
 const { find } = useStrapi()
 const {
@@ -230,6 +240,16 @@ const {
   error,
 } = await useAsyncData('projects', () => find('projects', { filters: { featured: true }, populate: '*' }))
 onMounted(() => refresh())
+
+const scrollContainer = ref(null)
+
+const slideBack = () => {
+  scrollContainer.value.scroll({ left: 0, behavior: 'smooth' })
+}
+
+const slideForward = () => {
+  scrollContainer.value.scroll({ left: scrollContainer.value.scrollLeft + 300, behavior: 'smooth' })
+}
 
 const ourProcess = [
   {
@@ -253,24 +273,28 @@ const testimonials = [
   {
     client: 'Claire Lehmann',
     role: 'CEO, Quillette',
+    avatar: '/images/claire-lehmann.png',
     statement:
       "RDD's technical acumen and professional manner has been indispensable to our company. They respond to requests rapidly and deliver solutions with careful precision and attention to detail. Having a holistic attitude towards business, RDD has ensured that our company has greatly improved technical infrastructure while at the same time delivering extensive cost savings. Their services are highly recommended.",
   },
   {
     client: 'Corey Mangold',
     role: 'Entrepreneur',
+    avatar: '/images/corey-mangold.png',
     statement:
       "I first met Sam in 2015 when we hired him at the creative agency I owned at the time. I knew it was only a matter of time before he would start his own thing. His work kicked ass and won us a ton of awards between 2015 and 2018. I've gone on to start several businesses since and use him and now RDD any time I need a website or custom software.",
   },
   {
     client: 'Jeremy Sifuentes',
     role: 'Realtor',
+    avatar: '/images/jeremy-sifuentes.png',
     statement:
       "I went to RDD with an idea for my real estate website and they brought it to life. They made it look flawless and from that I've acquired numerous clients. If you're looking for a website to be professionally made, RDD is the choice!",
   },
   {
     client: 'Kris Chase',
     role: 'VP of Technology, Envoy',
+    avatar: '/images/kris-chase.png',
     statement: "Rockstar developers with an impressive industry background, these guys know what they're doing.",
   },
 ]

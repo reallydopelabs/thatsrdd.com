@@ -1,5 +1,15 @@
 <template>
   <div>
+    <Head>
+      <Link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      <Link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+      <Link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+      <Link rel="manifest" href="/site.webmanifest" />
+
+      <Meta property="og:image" name="og:image" content="/og-image.png" />
+      <Meta name="twitter:image" content="/og-image.png" />
+      <Meta name="twitter:card" content="summary_large_image" />
+    </Head>
     <Header />
 
     <NuxtLoadingIndicator color="linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(0,0,196,1) 100%)" />
