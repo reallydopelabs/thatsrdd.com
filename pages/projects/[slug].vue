@@ -7,18 +7,18 @@
     <section class="pt-24 xl:pt-36">
       <header>
         <DopeContainer>
-          <div class="flex flex-col gap-8 lg:flex-row lg:justify-between">
             <DopeHeading level="h1" as="h1">
               {{ project.data.attributes.name }}
             </DopeHeading>
 
-            <div class="max-w-2xl self-end lg:self-auto">
-              <p class="text-2xl font-medium" v-html="project.data.attributes.description" />
-              <p class="mt-6 text-2xl font-medium text-neutral-500">
-                {{ servicesList(project.data.attributes.services) }}
-              </p>
+            <div class="mt-12 lg:flex lg:items-start lg:justify-between lg:gap-16">
+              <div class="prose prose-dope prose-xl font-medium" v-html="$md.render(project.data.attributes.description)" />
+              <div class="shrink-0 lg:sticky lg:top-24">
+                <p class="mt-12 lg:mt-0 text-xl font-medium leading-[1.8] text-neutral-500 whitespace-pre-line">
+                  {{ servicesList(project.data.attributes.services) }}
+                </p>
+              </div>
             </div>
-          </div>
         </DopeContainer>
       </header>
     </section>
@@ -68,7 +68,7 @@ const servicesList = (services) => {
     return false
   }
 
-  return services.map((data) => data.item).join(' / ')
+  return services.map((data) => data.item).join('\n')
 }
 
 const gridColsResponsive = (baseClass) => {
