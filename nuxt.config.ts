@@ -1,5 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  runtimeConfig: {
+    public: {
+      strapi: {
+        url: 'http://10.0.0.4:1337',
+      },
+    },
+  },
   app: {
     head: {
       link: [
@@ -16,7 +23,4 @@ export default defineNuxtConfig({
     },
   },
   modules: ['@nuxtjs/strapi'],
-  strapi: {
-    url: process.env.STRAPI_URL || 'http://10.0.0.4:1337',
-  },
 })
