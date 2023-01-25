@@ -19,6 +19,4 @@
 
 <script setup>
 const props = defineProps(['project'])
-
-const strapiUploadUrl = (url) => useStrapiUrl().replace('/api', url)
 </script>
