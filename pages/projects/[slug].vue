@@ -47,12 +47,7 @@
 const route = useRoute()
 const { findOne } = useStrapi()
 
-const {
-  data: project,
-  pending,
-  refresh,
-  error,
-} = await useAsyncData('project', () => {
+const { data: project, error } = await useAsyncData('project', () => {
   return findOne('projects', route.params.slug, {
     populate: {
       card: true,
@@ -67,8 +62,6 @@ const {
 if (error.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
 }
-
-onMounted(() => refresh())
 
 const servicesList = (services) => {
   if (!services) {

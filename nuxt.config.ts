@@ -1,9 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   runtimeConfig: {
+    strapi: {
+      url: 'http://10.0.0.4:1337',
+    },
     public: {
       strapi: {
-        url: 'http://10.0.0.4:1337',
+        url: '',
       },
     },
   },

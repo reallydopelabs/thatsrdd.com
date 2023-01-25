@@ -28,13 +28,5 @@
 
 <script setup>
 const { find } = useStrapi()
-const {
-  data: projects,
-  pending,
-  refresh,
-  error,
-} = await useAsyncData('projects', () => find('projects', { populate: 'card' }))
-onMounted(() => refresh())
-
-const strapiUploadUrl = (url) => useStrapiUrl().replace('/api', url)
+const { data: projects } = await useAsyncData('projects', () => find('projects', { populate: 'card' }))
 </script>
