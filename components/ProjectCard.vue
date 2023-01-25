@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="`/projects/${props.project.id}`" class="group">
+  <NuxtLink :to="`/projects/${props.project.attributes.slug}`" class="group">
     <div
       class="aspect-w-4 aspect-h-5 relative z-0 origin-bottom bg-neutral-900 transition-all duration-1000 ease-in-out group-hover:scale-105">
       <img
