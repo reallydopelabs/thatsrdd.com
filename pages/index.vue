@@ -114,8 +114,8 @@
       </header>
 
       <DopeContainer>
-        <div v-if="projects" class="grid grid-cols-1 gap-12 xl:grid-cols-2">
-          <div v-for="project in projects.data" :key="project.id" class="xl:[&:nth-child(2n)]:pt-24">
+        <div v-if="projects" class="grid grid-cols-1 gap-12 sm:grid-cols-2">
+          <div v-for="project in projects.data" :key="project.id" class="sm:[&:nth-child(2n)]:pt-24">
             <ProjectCard :project="project" />
           </div>
         </div>

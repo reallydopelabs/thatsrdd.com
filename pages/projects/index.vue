@@ -14,8 +14,8 @@
           <DopeHeading level="h3" as="h1" class="mb-6">Recent Projects</DopeHeading>
         </header>
 
-        <div v-if="projects" class="grid grid-cols-1 gap-8 xl:grid-cols-2">
-          <div v-for="project in projects.data" :key="project.id" class="xl:[&:nth-child(2n)]:pt-24">
+        <div v-if="projects" class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+          <div v-for="project in projects.data" :key="project.id" class="sm:[&:nth-child(2n)]:pt-24">
             <ProjectCard :project="project"></ProjectCard>
           </div>
         </div>
