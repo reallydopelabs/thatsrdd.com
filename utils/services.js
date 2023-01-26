@@ -39,7 +39,7 @@ export default [
       'Vision & Strategy',
       'Competitive Research',
       'Market Analysis',
-      'Development'
+      'Development',
     ],
   },
   {

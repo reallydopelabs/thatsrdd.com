@@ -238,7 +238,9 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon } from '@heroicons/vue/24/outline/index.js'
 
 const { find } = useStrapi()
-const { data: projects } = await useAsyncData('projects', () => find('projects', { filters: { featured: true }, populate: '*' }))
+const { data: projects } = await useAsyncData('projects', () =>
+  find('projects', { filters: { featured: true }, populate: '*' })
+)
 
 const scrollContainer = ref(null)
 

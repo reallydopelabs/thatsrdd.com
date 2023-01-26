@@ -1,6 +1,9 @@
 <template>
   <div
-    :class="[(isMenuOpen || isMenuClosing) ? '' : 'mix-blend-difference invert', 'fixed top-0 left-0 z-40 w-full p-2 transition-all duration-500 ease-in-out sm:p-4']">
+    :class="[
+      isMenuOpen || isMenuClosing ? '' : 'mix-blend-difference invert',
+      'fixed top-0 left-0 z-40 w-full p-2 transition-all duration-500 ease-in-out sm:p-4',
+    ]">
     <div class="relative z-10 mx-auto flex w-full max-w-8xl items-center justify-between border border-neutral-900">
       <div class="shrink-0 pl-4">
         <NuxtLink @click="closeMenu" to="/">
@@ -48,6 +51,6 @@
 const isMenuOpen = ref(false)
 const isMenuClosing = ref(false)
 
-const closeMenu = () => isMenuOpen.value = false
-const toggleMenu = () => isMenuOpen.value = !isMenuOpen.value
+const closeMenu = () => (isMenuOpen.value = false)
+const toggleMenu = () => (isMenuOpen.value = !isMenuOpen.value)
 </script>

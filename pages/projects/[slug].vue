@@ -7,18 +7,20 @@
     <section class="pt-24 xl:pt-36">
       <header>
         <DopeContainer>
-            <DopeHeading level="h1" as="h1">
-              {{ project.data[0].attributes.name }}
-            </DopeHeading>
+          <DopeHeading level="h1" as="h1">
+            {{ project.data[0].attributes.name }}
+          </DopeHeading>
 
-            <div class="mt-12 lg:flex lg:items-start lg:justify-between lg:gap-16">
-              <div class="prose prose-dope prose-xl font-medium" v-html="$md.render(project.data[0].attributes.description)" />
-              <div class="shrink-0 lg:sticky lg:top-24">
-                <p class="mt-12 lg:mt-0 text-xl font-medium leading-[1.8] text-neutral-500 whitespace-pre-line">
-                  {{ servicesList(project.data[0].attributes.services) }}
-                </p>
-              </div>
+          <div class="mt-12 lg:flex lg:items-start lg:justify-between lg:gap-16">
+            <div
+              class="prose prose-xl prose-dope font-medium"
+              v-html="$md.render(project.data[0].attributes.description)" />
+            <div class="shrink-0 lg:sticky lg:top-24">
+              <p class="mt-12 whitespace-pre-line text-xl font-medium leading-[1.8] text-neutral-500 lg:mt-0">
+                {{ servicesList(project.data[0].attributes.services) }}
+              </p>
             </div>
+          </div>
         </DopeContainer>
       </header>
     </section>
