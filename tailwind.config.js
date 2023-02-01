@@ -20,6 +20,13 @@ module.exports = {
         '2xl': '1440px',
       },
       typography: ({ theme }) => ({
+        DEFAULT: {
+          css: {
+            'h2>a, h3>a, h4>a, h5>a, h6>a': {
+              'text-decoration': 'none',
+            },
+          },
+        },
         dope: {
           css: {
             '--tw-prose-body': theme('colors.neutral[900]'),
@@ -27,7 +34,7 @@ module.exports = {
             '--tw-prose-lead': theme('colors.neutral[700]'),
             '--tw-prose-links': theme('colors.neutral[900]'),
             '--tw-prose-bold': theme('colors.neutral[900]'),
-            '--tw-prose-counters': theme('colors.neutral[600]'),
+            '--tw-prose-counters': theme('colors.neutral[900]'),
             '--tw-prose-bullets': theme('colors.neutral[900]'),
             '--tw-prose-hr': theme('colors.neutral[300]'),
             '--tw-prose-quotes': theme('colors.neutral[900]'),

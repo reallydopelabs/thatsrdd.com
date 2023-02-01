@@ -13,6 +13,10 @@
   }
 }
 
+iframe:focus-visible {
+  outline: none;
+}
+
 .scrollbar-none {
   scrollbar-width: none;
 }

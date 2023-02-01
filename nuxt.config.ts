@@ -25,5 +25,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@nuxtjs/strapi'],
+  modules: [
+    '@nuxt/content',
+    '@nuxtjs/strapi',
+  ],
+  content: {},
 })

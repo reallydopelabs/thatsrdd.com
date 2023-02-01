@@ -37,7 +37,7 @@
         <DopeContainer>
           <nav class="mt-64 text-5xl text-neutral-300 xl:text-7xl">
             <NuxtLink @click="closeMenu" to="/projects" class="block py-2">Work</NuxtLink>
-            <NuxtLink @click="closeMenu" to="/coming-soon" class="block py-2">Ideas</NuxtLink>
+            <NuxtLink @click="closeMenu" to="/ideas" class="block py-2">Ideas</NuxtLink>
             <NuxtLink @click="closeMenu" to="/about" class="block py-2">About</NuxtLink>
             <NuxtLink @click="closeMenu" to="/contact" class="block py-2">Get in touch</NuxtLink>
           </nav>
