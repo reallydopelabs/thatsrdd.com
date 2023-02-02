@@ -18,7 +18,7 @@
         <div class="col-span-1 md:col-span-2">
           <h6 class="mb-2">Explore</h6>
           <NuxtLink to="/projects" class="block">Work</NuxtLink>
-          <NuxtLink to="/coming-soon" class="block">Ideas</NuxtLink>
+          <NuxtLink to="/ideas" class="block">Ideas</NuxtLink>
           <NuxtLink to="/about" class="block">About</NuxtLink>
           <NuxtLink to="/contact" class="block">Get in touch</NuxtLink>
         </div>
