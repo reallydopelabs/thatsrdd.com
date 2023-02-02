@@ -6,7 +6,7 @@ This is the source code of the official [Really Dope Digital website](https://th
 
 ## Development
 
-The RDD website is built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+The RDD website is built using [Tailwind CSS](https://tailwindcss.com) and [Nuxt](https://nuxt.com/).
 
 To get started, first install the npm dependencies:
 
