@@ -272,6 +272,13 @@ const ourProcess = [
 
 const testimonials = [
   {
+    client: 'JonCameron Johnson',
+    role: 'Founder, Etho',
+    avatar: '/images/joncameron-johnson.jpg',
+    statement:
+      "I want to tell you right now, these guys are wizards. When it comes to the collaborative process they were extremely flexible. They took my ideas of branding and wire framing and were able to bring that vision to life. When it comes to the ability to think, the ability to create – RDD has got it. If you're thinking about using them, just do it. We'll be doing more business together in the future.",
+  },
+  {
     client: 'Claire Lehmann',
     role: 'CEO, Quillette',
     avatar: '/images/claire-lehmann.png',
