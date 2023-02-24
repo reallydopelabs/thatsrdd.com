@@ -3,14 +3,14 @@
     <section v-if="article" class="pt-24 xl:pt-36">
       <header class="border-b border-neutral-400 py-8">
         <DopeContainer>
-          <h1 class="text-5xl lg:text-7xl xl:text-8xl uppercase font-bold">{{ article.title }}</h1>
+          <h1 class="text-5xl font-bold uppercase lg:text-7xl xl:text-8xl">{{ article.title }}</h1>
         </DopeContainer>
       </header>
 
       <DopeContainer class="py-4">
         <div class="mb-8 font-bold uppercase">{{ article.author }} / {{ new Date(article.date).getFullYear() }}</div>
 
-        <ContentRenderer :value="article" class="prose prose-xl prose-dope font-medium pb-16">
+        <ContentRenderer :value="article" class="prose prose-xl prose-dope pb-16 font-medium">
           <template #empty>
             <p>No content found.</p>
           </template>
@@ -43,14 +43,18 @@ const { data: surround } = await useAsyncData(`content/${path}-surround`, () =>
 const [prev, next] = surround.value
 
 useHead({
-  title: article.value.title,
+  titleTemplate: `${article.value.title} \u2014 An idea from Really Dope Digital`,
   meta: [
     { name: 'description', content: article.value.description },
-    // {
-    //   hid: "og:image",
-    //   property: "og:image",
-    //   content: `https://site.com/${data.value.article.img}`,
-    // },
+    {
+      name: 'og:image',
+      property: 'og:image',
+      content: article.value.image || '/og-image.png',
+    },
+    {
+      name: 'twitter:image',
+      content: article.value.image || '/og-image.png',
+    },
   ],
 })
 </script>
