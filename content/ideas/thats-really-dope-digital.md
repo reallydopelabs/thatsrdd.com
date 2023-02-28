@@ -13,7 +13,7 @@ Really Dope Digital is a full service digital consultancy. We connect a decade o
 
 Founded by career designer and engineer [Sam Rapaport](https://samrapaport.com), Really Dope Digital is a tight-knit team of creators and entrepreneurs with a broad set of digital skills. Sam Rapaport has a background in industrial design, worked at award-winning agencies building websites for massive brands such as Virgin Group, and spent several years engineering critical global infrastructure for the massive payments company Stripe.
 
-![Sam Rapaport](/images/sam-rapaport-dtla.JPG 'Sam Rapaport')
+![Sam Rapaport](/images/sam-rapaport-dtla-patio.JPG 'Sam Rapaport')
 
 In 2021, he decided to take his expertise in design and engineering and assemble a curated team of equally qualified professionals across disciplines. RDD is a result of thousands of hours of experience at some of the most cutting edge brands and disciplines coming together to provide big-tech digital capabilities to a world of creatives and new brands. We love collaborating with our partners to push the boundaries of what is possible to build online.
 
