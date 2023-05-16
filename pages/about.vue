@@ -52,6 +52,25 @@
       </DopeContainer>
     </DopeSection>
 
+    <DopeSection>
+      <DopeContainer>
+        <header class="mb-16">
+          <DopeHeading level="h3">Awards & Recognition</DopeHeading>
+        </header>
+
+        <div class="grid grid-cols-4 gap-8">
+          <div>
+            <a target="_blank" href="https://www.designrush.com/agency/logo-branding/california/los-angeles">
+              <img
+                src="https://www.designrush.com/topbest/images/svg/top-agency-badges/top-branding-agencies.svg"
+                alt="Top Branding Agencies Design Rush"
+                class="grayscale" />
+            </a>
+          </div>
+        </div>
+      </DopeContainer>
+    </DopeSection>
+
     <DopeCta></DopeCta>
   </div>
 </template>
