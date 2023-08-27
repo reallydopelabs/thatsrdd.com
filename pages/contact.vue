@@ -12,7 +12,7 @@
           We're here for it. Schedule a call with our team or email us at
           <span class="underline">hey@thatsrdd.com</span>.
         </p>
-        <DopeButton to="https://calendly.com/samrapaport" target="_blank">Schedule a Call</DopeButton>
+        <DopeButton to="https://calendar.app.google/1yaZ2KKUVHZ8pqz99" target="_blank">Schedule a Call</DopeButton>
       </DopeContainer>
     </DopeSection>
   </div>
