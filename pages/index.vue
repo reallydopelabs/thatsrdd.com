@@ -239,7 +239,7 @@ import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon } from '@heroicons/v
 
 const { find } = useStrapi()
 const { data: projects } = await useAsyncData('projects', () =>
-  find('projects', { filters: { featured: true }, populate: '*' })
+  find('projects', { filters: { featured: true }, populate: '*', sort: 'priority' })
 )
 
 const scrollContainer = ref(null)
