@@ -28,5 +28,7 @@
 
 <script setup>
 const { find } = useStrapi()
-const { data: projects } = await useAsyncData('projects', () => find('projects', { populate: 'card' }))
+const { data: projects } = await useAsyncData('projects', () =>
+  find('projects', { populate: 'card', sort: 'priority' })
+)
 </script>
