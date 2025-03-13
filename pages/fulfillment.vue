@@ -5,40 +5,66 @@
     </Head>
 
     <section>
-      <h1>Fulfillment Policy</h1>
+      <h1 class="text-2xl font-bold">Fulfillment Policy</h1>
 
       <p><strong>Last Updated:</strong> March 10, 2025</p>
 
-      <h2>Order Processing & Service Delivery</h2>
-      <ul>
-        <li>We do not sell any physical products.</li>
-        <li>Digital services will be delivered in accordance with the agreed-upon scope of work.</li>
+      <h2 class="text-xl font-bold">Order Processing & Service Delivery</h2>
+      <p>
+        RDD does not sell any physical products. All services provided are digital and are delivered based on the
+        agreed-upon scope of work.
+      </p>
+      <ul class="my-6 list-disc space-y-4">
         <li>
-          For service subscriptions, services will be provided as requested throughout the duration of the subscription.
+          For one-time digital services, delivery timelines and milestones will be outlined in the service agreement.
+        </li>
+        <li>
+          For subscription-based services, deliverables will be provided as requested throughout the duration of the
+          active subscription.
+        </li>
+        <li>
+          Clients will receive access to completed work via secure digital delivery methods, such as email, a client
+          dashboard, or cloud-based collaboration tools.
         </li>
       </ul>
 
-      <h2>Refund Policy</h2>
-      <ul>
-        <li>Refunds are <strong>not available</strong> for digital products or services.</li>
-      </ul>
+      <h2 class="text-xl font-bold">Refund Policy</h2>
+      <p>
+        All sales of digital services are final. Due to the nature of our work,
+        <strong>refunds are not offered</strong>. If you experience any issues with the services provided, please
+        contact us at <a href="mailto:hey@thatsrdd.com">hey@thatsrdd.com</a> to discuss possible resolutions.
+      </p>
 
-      <h2>Cancellation Policy</h2>
-      <ul>
+      <h2 class="text-xl font-bold">Cancellation Policy</h2>
+      <ul class="my-6 list-disc space-y-4">
         <li>Subscription services may be canceled at any time before the next billing cycle.</li>
         <li>
-          To cancel, please contact <a href="mailto:hey@thatsrdd.com">hey@thatsrdd.com</a> or reach out to your RDD
-          representative directly.
+          Clients can cancel by contacting their RDD representative or emailing
+          <a href="mailto:hey@thatsrdd.com">hey@thatsrdd.com</a>.
         </li>
         <li>
-          You may also cancel your subscription via the direct billing portal link provided at the start of your
-          subscription.
+          Subscription services can also be canceled via the direct billing portal link sent when the subscription was
+          initiated.
+        </li>
+        <li>Cancellation requests must be received before the next billing date to avoid additional charges.</li>
+      </ul>
+
+      <h2 class="text-xl font-bold">Service Modifications & Revisions</h2>
+      <ul class="my-6 list-disc space-y-4">
+        <li>
+          All services are performed based on the agreed scope of work. Any modifications or revisions outside the
+          initial agreement may be subject to additional charges.
+        </li>
+        <li>
+          Requests for modifications should be submitted in writing via email to
+          <a href="mailto:hey@thatsrdd.com">hey@thatsrdd.com</a> or through direct communication with your RDD
+          representative.
         </li>
       </ul>
 
-      <h2>Contact Us</h2>
+      <h2 class="text-xl font-bold">Contact Us</h2>
       <p>
-        If you have any questions regarding our fulfillment policies, please contact us at
+        If you have any questions regarding our fulfillment policies, please reach out to us at
         <a href="mailto:hey@thatsrdd.com">hey@thatsrdd.com</a>.
       </p>
     </section>
